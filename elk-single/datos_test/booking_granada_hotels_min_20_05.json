@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://www.booking.com/hotel/es/granada-center.es.html",
+    "id": "granada-center",
+    "nombre": "Hotel Granada Center",
+    "localidad": "Avenida Fuentenueva, s/n, 18002 Granada, España",
+    "coordenadas": {
+      "latitud": 37.1825,
+      "longitud": -3.6025
+    },
+    "servicios": [
+      "WiFi gratis",
+      "Parking privado",
+      "Restaurante",
+      "Gimnasio",
+      "Bar"
+    ],
+    "mascotas": "Se admiten bajo petición. Se pueden aplicar suplementos.",
+    "descripcion": "Moderno hotel en el centro de Granada, ideal para estancias de negocios o placer. A 10 minutos a pie de la catedral y a 15 minutos de la Alhambra.",
+    "opinion": 8.9,
+    "comentarios": 1234,
+    "fechaEntrada": "2025-05-20",
+    "fechaSalida": "2025-05-21",
+    "precio": 98
+  },
+  {
+    "url": "https://www.booking.com/hotel/es/nh-collection-granada-victoria.es.html",
+    "id": "nh-collection-victoria",
+    "nombre": "NH Collection Granada Victoria",
+    "localidad": "Puerta Real, 3, 18005 Granada, España",
+    "coordenadas": {
+      "latitud": 37.1746,
+      "longitud": -3.5981
+    },
+    "servicios": [
+      "WiFi gratis",
+      "Restaurante",
+      "Bar",
+      "Servicio de habitaciones",
+      "Adaptado personas de movilidad reducida"
+    ],
+    "mascotas": "No se admiten.",
+    "descripcion": "Hotel elegante situado en el centro histórico de Granada, a poca distancia de la Alhambra y el Albaicín.",
+    "opinion": 9.1,
+    "comentarios": 842,
+    "fechaEntrada": "2025-05-20",
+    "fechaSalida": "2025-05-21",
+    "precio": 110
+  },
+  {
+    "url": "https://www.booking.com/hotel/es/barcelo-carmen.es.html",
+    "id": "barcelo-carmen",
+    "nombre": "Barceló Carmen Granada",
+    "localidad": "Acera del Darro, 62, 18005 Granada, España",
+    "coordenadas": {
+      "latitud": 37.1715,
+      "longitud": -3.5983
+    },
+    "servicios": [
+      "WiFi gratis",
+      "Piscina al aire libre",
+      "Bar en la azotea",
+      "Restaurante",
+      "Parking"
+    ],
+    "mascotas": "No se admiten.",
+    "descripcion": "Situado en pleno centro de Granada, con una impresionante terraza con vistas a la Alhambra.",
+    "opinion": 8.4,
+    "comentarios": 1095,
+    "fechaEntrada": "2025-05-20",
+    "fechaSalida": "2025-05-21",
+    "precio": 102
+  },
+  {
+    "url": "https://www.booking.com/hotel/es/eurostars-washington-irving.es.html",
+    "id": "eurostars-washington-irving",
+    "nombre": "Eurostars Washington Irving",
+    "localidad": "Paseo del Generalife, 10, 18009 Granada, España",
+    "coordenadas": {
+      "latitud": 37.1701,
+      "longitud": -3.5872
+    },
+    "servicios": [
+      "WiFi gratis",
+      "Piscina",
+      "Gimnasio",
+      "Restaurante",
+      "Sauna"
+    ],
+    "mascotas": "No se admiten.",
+    "descripcion": "Hotel temático inspirado en el escritor Washington Irving, situado junto a la Alhambra.",
+    "opinion": 9.0,
+    "comentarios": 562,
+    "fechaEntrada": "2025-05-20",
+    "fechaSalida": "2025-05-21",
+    "precio": 120
+  },
+  {
+    "url": "https://www.booking.com/hotel/es/vincci-albayzin.es.html",
+    "id": "vincci-albayzin",
+    "nombre": "Vincci Albayzin",
+    "localidad": "Carrera de la Virgen, 48, 18005 Granada, España",
+    "coordenadas": {
+      "latitud": 37.1713,
+      "longitud": -3.5989
+    },
+    "servicios": [
+      "WiFi gratis",
+      "Centro fitness",
+      "Patio andaluz",
+      "Habitaciones sin humo",
+      "Bar"
+    ],
+    "mascotas": "No se admiten.",
+    "descripcion": "Hotel con encanto andaluz en el centro de Granada, cerca de zonas comerciales y del casco antiguo.",
+    "opinion": 8.8,
+    "comentarios": 789,
+    "fechaEntrada": "2025-05-20",
+    "fechaSalida": "2025-05-21",
+    "precio": 95
+  }
+]

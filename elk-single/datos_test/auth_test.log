@@ -1,0 +1,656 @@
+2025-05-18T08:48:02.926424+00:00 proyecto-vm1 systemd-logind[780]: New seat seat0.
+2025-05-18T08:48:02.926448+00:00 proyecto-vm1 systemd-logind[780]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-05-18T08:48:02.926450+00:00 proyecto-vm1 systemd-logind[780]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-05-18T08:48:02.926505+00:00 proyecto-vm1 polkitd[771]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-18T08:48:02.926524+00:00 proyecto-vm1 polkitd[771]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-18T08:48:02.926530+00:00 proyecto-vm1 polkitd[771]: Finished loading, compiling and executing 6 rules
+2025-05-18T08:48:02.926551+00:00 proyecto-vm1 polkitd[771]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-18T08:49:55.663300+00:00 proyecto-vm1 sshd[1734]: Server listening on :: port 22.
+2025-05-18T08:49:56.416136+00:00 proyecto-vm1 sshd[1736]: Accepted password for docker from 10.240.17.1 port 61286 ssh2
+2025-05-18T08:49:56.416960+00:00 proyecto-vm1 sshd[1736]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T08:49:56.436408+00:00 proyecto-vm1 systemd-logind[780]: New session 1 of user docker.
+2025-05-18T08:49:56.448203+00:00 proyecto-vm1 (systemd): pam_unix(systemd-user:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T08:49:56.791507+00:00 proyecto-vm1 sshd[1771]: Accepted password for docker from 10.240.17.1 port 61285 ssh2
+2025-05-18T08:49:56.791557+00:00 proyecto-vm1 sshd[1771]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T08:49:56.795668+00:00 proyecto-vm1 systemd-logind[780]: New session 3 of user docker.
+2025-05-18T08:51:38.462832+00:00 proyecto-vm1 sshd[1977]: Accepted password for docker from 10.240.17.1 port 61696 ssh2
+2025-05-18T08:51:38.464104+00:00 proyecto-vm1 sshd[1977]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T08:51:38.466797+00:00 proyecto-vm1 systemd-logind[780]: New session 4 of user docker.
+2025-05-18T08:55:01.374717+00:00 proyecto-vm1 CRON[2129]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T08:55:01.377431+00:00 proyecto-vm1 CRON[2129]: pam_unix(cron:session): session closed for user root
+2025-05-18T08:55:25.825372+00:00 proyecto-vm1 sshd[2144]: Accepted password for docker from 10.240.17.1 port 62725 ssh2
+2025-05-18T08:55:25.826250+00:00 proyecto-vm1 sshd[2144]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T08:55:25.829260+00:00 proyecto-vm1 systemd-logind[780]: New session 6 of user docker.
+2025-05-18T08:55:29.898390+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/elk-share ; USER=root ; COMMAND=/usr/bin/su
+2025-05-18T08:55:29.899786+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-18T08:55:29.904539+00:00 proyecto-vm1 su[2213]: (to root) root on pts/2
+2025-05-18T08:55:29.904609+00:00 proyecto-vm1 su[2213]: pam_unix(su:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-18T08:58:01.113579+00:00 proyecto-vm1 sshd[2274]: Accepted password for docker from 10.240.17.1 port 63422 ssh2
+2025-05-18T08:58:01.114781+00:00 proyecto-vm1 sshd[2274]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T08:58:01.117874+00:00 proyecto-vm1 systemd-logind[780]: New session 7 of user docker.
+2025-05-18T09:05:01.387841+00:00 proyecto-vm1 CRON[2481]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T09:05:01.389356+00:00 proyecto-vm1 CRON[2481]: pam_unix(cron:session): session closed for user root
+2025-05-18T09:06:27.160699+00:00 proyecto-vm1 sudo:     root : TTY=pts/2 ; PWD=/elk-share/kibana ; USER=root ; COMMAND=/usr/bin/chown nobody:nogroup . -R
+2025-05-18T09:06:27.160887+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-18T09:06:27.162498+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T09:15:01.398314+00:00 proyecto-vm1 CRON[9853]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T09:15:01.400252+00:00 proyecto-vm1 CRON[9853]: pam_unix(cron:session): session closed for user root
+2025-05-18T09:17:01.405669+00:00 proyecto-vm1 CRON[10444]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T09:17:01.411180+00:00 proyecto-vm1 CRON[10444]: pam_unix(cron:session): session closed for user root
+2025-05-18T09:25:01.416166+00:00 proyecto-vm1 CRON[14602]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T09:25:01.420324+00:00 proyecto-vm1 CRON[14602]: pam_unix(cron:session): session closed for user root
+2025-05-18T09:35:01.436316+00:00 proyecto-vm1 CRON[30028]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T09:35:01.438942+00:00 proyecto-vm1 CRON[30028]: pam_unix(cron:session): session closed for user root
+2025-05-18T09:45:01.454574+00:00 proyecto-vm1 CRON[40232]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T09:45:01.456435+00:00 proyecto-vm1 CRON[40232]: pam_unix(cron:session): session closed for user root
+2025-05-18T09:55:01.471301+00:00 proyecto-vm1 CRON[51529]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T09:55:01.473855+00:00 proyecto-vm1 CRON[51529]: pam_unix(cron:session): session closed for user root
+2025-05-18T09:59:06.724335+00:00 proyecto-vm1 sudo:     root : TTY=pts/2 ; PWD=/elk-share/metricbeat ; USER=root ; COMMAND=/usr/bin/chown nobody:nogroup . -R
+2025-05-18T09:59:06.725152+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-18T09:59:06.726705+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T10:05:01.483688+00:00 proyecto-vm1 CRON[51844]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T10:05:01.487031+00:00 proyecto-vm1 CRON[51844]: pam_unix(cron:session): session closed for user root
+2025-05-18T10:06:32.333418+00:00 proyecto-vm1 sshd[1977]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T10:06:32.338879+00:00 proyecto-vm1 systemd-logind[780]: Session 4 logged out. Waiting for processes to exit.
+2025-05-18T10:06:32.340009+00:00 proyecto-vm1 systemd-logind[780]: Removed session 4.
+2025-05-18T10:06:34.342674+00:00 proyecto-vm1 sshd[51922]: Accepted password for docker from 10.240.17.1 port 64307 ssh2
+2025-05-18T10:06:34.344129+00:00 proyecto-vm1 sshd[51922]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T10:06:34.349254+00:00 proyecto-vm1 systemd-logind[780]: New session 16 of user docker.
+2025-05-18T10:13:13.118279+00:00 proyecto-vm1 sshd[61659]: Accepted password for docker from 10.240.17.1 port 49941 ssh2
+2025-05-18T10:13:13.120896+00:00 proyecto-vm1 sshd[61659]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T10:13:13.128227+00:00 proyecto-vm1 systemd-logind[780]: New session 17 of user docker.
+2025-05-18T10:15:01.508226+00:00 proyecto-vm1 CRON[62308]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T10:15:01.511385+00:00 proyecto-vm1 CRON[62308]: pam_unix(cron:session): session closed for user root
+2025-05-18T10:17:01.516466+00:00 proyecto-vm1 CRON[62925]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T10:17:01.520531+00:00 proyecto-vm1 CRON[62925]: pam_unix(cron:session): session closed for user root
+2025-05-18T10:25:01.527577+00:00 proyecto-vm1 CRON[63940]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T10:25:01.530026+00:00 proyecto-vm1 CRON[63940]: pam_unix(cron:session): session closed for user root
+2025-05-18T10:34:55.655090+00:00 proyecto-vm1 sudo:     root : TTY=pts/2 ; PWD=/elk-share/logstash ; USER=root ; COMMAND=/usr/bin/chown nobody:nogroup . -R
+2025-05-18T10:34:55.656140+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-18T10:34:55.657843+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T10:35:01.538551+00:00 proyecto-vm1 CRON[64141]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T10:35:01.540627+00:00 proyecto-vm1 CRON[64141]: pam_unix(cron:session): session closed for user root
+2025-05-18T10:45:01.548732+00:00 proyecto-vm1 CRON[64334]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T10:45:01.550458+00:00 proyecto-vm1 CRON[64334]: pam_unix(cron:session): session closed for user root
+2025-05-18T10:55:01.560683+00:00 proyecto-vm1 CRON[64524]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T10:55:01.563241+00:00 proyecto-vm1 CRON[64524]: pam_unix(cron:session): session closed for user root
+2025-05-18T10:59:46.399916+00:00 proyecto-vm1 sshd[1771]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T10:59:46.410995+00:00 proyecto-vm1 systemd-logind[780]: Session 3 logged out. Waiting for processes to exit.
+2025-05-18T10:59:46.412585+00:00 proyecto-vm1 systemd-logind[780]: Removed session 3.
+2025-05-18T10:59:46.423205+00:00 proyecto-vm1 sshd[1736]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T10:59:46.434726+00:00 proyecto-vm1 systemd-logind[780]: Session 1 logged out. Waiting for processes to exit.
+2025-05-18T10:59:46.435470+00:00 proyecto-vm1 systemd-logind[780]: Removed session 1.
+2025-05-18T10:59:48.432369+00:00 proyecto-vm1 sshd[64678]: Accepted password for docker from 10.240.17.1 port 62286 ssh2
+2025-05-18T10:59:48.433806+00:00 proyecto-vm1 sshd[64678]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T10:59:48.436160+00:00 proyecto-vm1 systemd-logind[780]: New session 24 of user docker.
+2025-05-18T10:59:57.363274+00:00 proyecto-vm1 sshd[64736]: Accepted password for docker from 10.240.17.1 port 62325 ssh2
+2025-05-18T10:59:57.364925+00:00 proyecto-vm1 sshd[64736]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T10:59:57.367547+00:00 proyecto-vm1 systemd-logind[780]: New session 25 of user docker.
+2025-05-18T11:05:01.573551+00:00 proyecto-vm1 CRON[64895]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T11:05:01.575469+00:00 proyecto-vm1 CRON[64895]: pam_unix(cron:session): session closed for user root
+2025-05-18T11:15:01.582620+00:00 proyecto-vm1 CRON[65123]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T11:15:01.585294+00:00 proyecto-vm1 CRON[65123]: pam_unix(cron:session): session closed for user root
+2025-05-18T11:17:01.591145+00:00 proyecto-vm1 CRON[65164]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T11:17:01.593356+00:00 proyecto-vm1 CRON[65164]: pam_unix(cron:session): session closed for user root
+2025-05-18T11:25:01.602585+00:00 proyecto-vm1 CRON[65395]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T11:25:01.605455+00:00 proyecto-vm1 CRON[65395]: pam_unix(cron:session): session closed for user root
+2025-05-18T11:28:00.706795+00:00 proyecto-vm1 sudo: pam_unix(sudo:auth): authentication failure; logname=docker uid=1001 euid=0 tty=/dev/pts/3 ruser=docker rhost=  user=docker
+2025-05-18T11:28:03.903175+00:00 proyecto-vm1 sudo:   docker : TTY=pts/3 ; PWD=/home/docker/elk-nfs/logstash/pipeline ; USER=root ; COMMAND=/usr/bin/chown docker /elk-share/logstash/pipeline/logstash.conf
+2025-05-18T11:28:03.905752+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-18T11:28:03.906721+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T11:29:41.276288+00:00 proyecto-vm1 sudo:   docker : TTY=pts/3 ; PWD=/home/docker/elk-nfs/logstash/pipeline ; USER=root ; COMMAND=/usr/bin/chown docker:docker /elk-share/logstash/pipeline/logstash.conf
+2025-05-18T11:29:41.279807+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-18T11:29:41.279836+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T11:33:45.992156+00:00 proyecto-vm1 sshd[51922]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T11:33:45.999525+00:00 proyecto-vm1 systemd-logind[780]: Session 16 logged out. Waiting for processes to exit.
+2025-05-18T11:33:46.001652+00:00 proyecto-vm1 systemd-logind[780]: Removed session 16.
+2025-05-18T11:33:48.229348+00:00 proyecto-vm1 sshd[65673]: Accepted password for docker from 10.240.17.1 port 54916 ssh2
+2025-05-18T11:33:48.230641+00:00 proyecto-vm1 sshd[65673]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T11:33:48.232711+00:00 proyecto-vm1 systemd-logind[780]: New session 30 of user docker.
+2025-05-18T11:33:54.946077+00:00 proyecto-vm1 sshd[61659]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T11:33:54.949149+00:00 proyecto-vm1 systemd-logind[780]: Session 17 logged out. Waiting for processes to exit.
+2025-05-18T11:33:54.950565+00:00 proyecto-vm1 systemd-logind[780]: Removed session 17.
+2025-05-18T11:33:57.123333+00:00 proyecto-vm1 sshd[65785]: Accepted password for docker from 10.240.17.1 port 54955 ssh2
+2025-05-18T11:33:57.125200+00:00 proyecto-vm1 sshd[65785]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T11:33:57.127313+00:00 proyecto-vm1 systemd-logind[780]: New session 31 of user docker.
+2025-05-18T11:35:01.616182+00:00 proyecto-vm1 CRON[68024]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T11:35:01.620985+00:00 proyecto-vm1 CRON[68024]: pam_unix(cron:session): session closed for user root
+2025-05-18T11:42:58.472100+00:00 proyecto-vm1 sudo:     root : TTY=pts/2 ; PWD=/elk-share/logstash/pipeline ; USER=root ; COMMAND=/usr/bin/chown nobody:nogroup .
+2025-05-18T11:42:58.472584+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-18T11:42:58.473893+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T11:45:01.641485+00:00 proyecto-vm1 CRON[81398]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T11:45:01.647752+00:00 proyecto-vm1 CRON[81398]: pam_unix(cron:session): session closed for user root
+2025-05-18T11:55:01.675997+00:00 proyecto-vm1 CRON[91627]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T11:55:01.679988+00:00 proyecto-vm1 CRON[91627]: pam_unix(cron:session): session closed for user root
+2025-05-18T12:05:01.713289+00:00 proyecto-vm1 CRON[102507]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T12:05:01.715923+00:00 proyecto-vm1 CRON[102507]: pam_unix(cron:session): session closed for user root
+2025-05-18T12:15:01.740090+00:00 proyecto-vm1 CRON[109524]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T12:15:01.742415+00:00 proyecto-vm1 CRON[109524]: pam_unix(cron:session): session closed for user root
+2025-05-18T12:17:01.750871+00:00 proyecto-vm1 CRON[113816]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T12:17:01.754949+00:00 proyecto-vm1 CRON[113816]: pam_unix(cron:session): session closed for user root
+2025-05-18T12:22:37.811128+00:00 proyecto-vm1 sshd[65673]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T12:22:37.834309+00:00 proyecto-vm1 systemd-logind[780]: Session 30 logged out. Waiting for processes to exit.
+2025-05-18T12:22:37.836035+00:00 proyecto-vm1 systemd-logind[780]: Removed session 30.
+2025-05-18T12:22:40.789734+00:00 proyecto-vm1 sshd[114953]: Accepted password for docker from 10.240.17.1 port 51665 ssh2
+2025-05-18T12:22:40.791006+00:00 proyecto-vm1 sshd[114953]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T12:22:40.800044+00:00 proyecto-vm1 systemd-logind[780]: New session 38 of user docker.
+2025-05-18T12:23:06.145650+00:00 proyecto-vm1 sudo:   docker : TTY=pts/0 ; PWD=/home/docker/elk-single ; USER=root ; COMMAND=/usr/sbin/exportfs
+2025-05-18T12:23:06.158106+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-18T12:23:06.158350+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T12:25:01.767147+00:00 proyecto-vm1 CRON[117244]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T12:25:01.772847+00:00 proyecto-vm1 CRON[117244]: pam_unix(cron:session): session closed for user root
+2025-05-18T12:35:01.810012+00:00 proyecto-vm1 CRON[122661]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T12:35:01.813170+00:00 proyecto-vm1 CRON[122661]: pam_unix(cron:session): session closed for user root
+2025-05-18T12:42:48.829030+00:00 proyecto-vm1 sshd[64736]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T12:42:48.835943+00:00 proyecto-vm1 sshd[64678]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T12:42:48.851902+00:00 proyecto-vm1 systemd-logind[780]: Session 25 logged out. Waiting for processes to exit.
+2025-05-18T12:42:48.853198+00:00 proyecto-vm1 systemd-logind[780]: Session 24 logged out. Waiting for processes to exit.
+2025-05-18T12:42:48.854427+00:00 proyecto-vm1 systemd-logind[780]: Removed session 25.
+2025-05-18T12:42:48.855879+00:00 proyecto-vm1 systemd-logind[780]: Removed session 24.
+2025-05-18T12:42:53.447181+00:00 proyecto-vm1 sshd[125405]: Accepted password for docker from 10.240.17.1 port 56721 ssh2
+2025-05-18T12:42:53.448810+00:00 proyecto-vm1 sshd[125405]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T12:42:53.454884+00:00 proyecto-vm1 systemd-logind[780]: New session 41 of user docker.
+2025-05-18T12:43:06.689898+00:00 proyecto-vm1 sshd[125588]: Accepted password for docker from 10.240.17.1 port 56777 ssh2
+2025-05-18T12:43:06.691602+00:00 proyecto-vm1 sshd[125588]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T12:43:06.693488+00:00 proyecto-vm1 systemd-logind[780]: New session 42 of user docker.
+2025-05-18T12:45:01.833969+00:00 proyecto-vm1 CRON[126222]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T12:45:01.840289+00:00 proyecto-vm1 CRON[126222]: pam_unix(cron:session): session closed for user root
+2025-05-18T12:55:01.866769+00:00 proyecto-vm1 CRON[130043]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T12:55:01.873684+00:00 proyecto-vm1 CRON[130043]: pam_unix(cron:session): session closed for user root
+2025-05-18T12:56:50.462079+00:00 proyecto-vm1 sshd[125405]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T12:56:50.463818+00:00 proyecto-vm1 sshd[125588]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T12:56:50.477539+00:00 proyecto-vm1 systemd-logind[780]: Session 41 logged out. Waiting for processes to exit.
+2025-05-18T12:56:50.479481+00:00 proyecto-vm1 systemd-logind[780]: Session 42 logged out. Waiting for processes to exit.
+2025-05-18T12:56:50.481150+00:00 proyecto-vm1 systemd-logind[780]: Removed session 41.
+2025-05-18T12:56:50.483715+00:00 proyecto-vm1 systemd-logind[780]: Removed session 42.
+2025-05-18T13:05:01.880587+00:00 proyecto-vm1 CRON[130630]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T13:05:01.881589+00:00 proyecto-vm1 CRON[130630]: pam_unix(cron:session): session closed for user root
+2025-05-18T13:13:33.224258+00:00 proyecto-vm1 sudo:     root : TTY=pts/2 ; PWD=/elk-data/logs ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+2025-05-18T13:13:33.225990+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-18T13:13:33.234289+00:00 proyecto-vm1 systemd-logind[780]: The system will power off now!
+2025-05-18T13:13:33.251461+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T13:13:33.548571+00:00 proyecto-vm1 systemd-logind[780]: System is powering down.
+2025-05-18T13:13:33.596365+00:00 proyecto-vm1 sshd[2274]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T13:13:33.599701+00:00 proyecto-vm1 sshd[65785]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T13:13:33.600837+00:00 proyecto-vm1 sshd[114953]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T13:13:33.603766+00:00 proyecto-vm1 su[2213]: pam_unix(su:session): session closed for user root
+2025-05-18T13:13:33.604672+00:00 proyecto-vm1 sshd[2144]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T17:19:46.788928+00:00 proyecto-vm1 systemd-logind[807]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-05-18T17:19:46.788930+00:00 proyecto-vm1 systemd-logind[807]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-05-18T17:19:46.788935+00:00 proyecto-vm1 systemd-logind[807]: New seat seat0.
+2025-05-18T17:19:46.788952+00:00 proyecto-vm1 polkitd[787]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-18T17:19:46.788955+00:00 proyecto-vm1 polkitd[787]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-18T17:19:46.788956+00:00 proyecto-vm1 polkitd[787]: Finished loading, compiling and executing 6 rules
+2025-05-18T17:19:46.788959+00:00 proyecto-vm1 polkitd[787]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-18T17:20:07.922200+00:00 proyecto-vm1 sshd[1541]: Server listening on :: port 22.
+2025-05-18T17:20:08.735358+00:00 proyecto-vm1 sshd[1543]: Accepted password for docker from 10.240.17.1 port 49829 ssh2
+2025-05-18T17:20:08.739921+00:00 proyecto-vm1 sshd[1543]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T17:20:08.756493+00:00 proyecto-vm1 systemd-logind[807]: New session 1 of user docker.
+2025-05-18T17:20:08.769787+00:00 proyecto-vm1 (systemd): pam_unix(systemd-user:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T17:25:01.948612+00:00 proyecto-vm1 CRON[1840]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T17:25:01.950424+00:00 proyecto-vm1 CRON[1840]: pam_unix(cron:session): session closed for user root
+2025-05-18T17:25:53.139636+00:00 proyecto-vm1 sshd[1861]: Accepted password for docker from 10.240.17.1 port 51390 ssh2
+2025-05-18T17:25:53.141208+00:00 proyecto-vm1 sshd[1861]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T17:25:53.143171+00:00 proyecto-vm1 systemd-logind[807]: New session 4 of user docker.
+2025-05-18T17:31:22.187025+00:00 proyecto-vm1 sshd[2041]: Accepted password for docker from 10.240.17.1 port 52706 ssh2
+2025-05-18T17:31:22.188968+00:00 proyecto-vm1 sshd[2041]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T17:31:22.191874+00:00 proyecto-vm1 systemd-logind[807]: New session 5 of user docker.
+2025-05-18T17:32:30.257164+00:00 proyecto-vm1 sshd[4441]: Accepted password for docker from 10.240.17.1 port 52975 ssh2
+2025-05-18T17:32:30.259022+00:00 proyecto-vm1 sshd[4441]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T17:32:30.262696+00:00 proyecto-vm1 systemd-logind[807]: New session 6 of user docker.
+2025-05-18T17:34:09.167775+00:00 proyecto-vm1 sshd[7197]: Accepted password for docker from 10.240.17.1 port 53389 ssh2
+2025-05-18T17:34:09.176592+00:00 proyecto-vm1 sshd[7197]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T17:34:09.213149+00:00 proyecto-vm1 systemd-logind[807]: New session 7 of user docker.
+2025-05-18T17:35:01.967085+00:00 proyecto-vm1 CRON[7534]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T17:35:01.969166+00:00 proyecto-vm1 CRON[7534]: pam_unix(cron:session): session closed for user root
+2025-05-18T17:35:45.620314+00:00 proyecto-vm1 sshd[7753]: Accepted password for docker from 10.240.17.1 port 53841 ssh2
+2025-05-18T17:35:45.620833+00:00 proyecto-vm1 sshd[7753]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-18T17:35:45.631143+00:00 proyecto-vm1 systemd-logind[807]: New session 9 of user docker.
+2025-05-18T17:37:03.867588+00:00 proyecto-vm1 sudo:   docker : TTY=pts/2 ; PWD=/elk-share ; USER=root ; COMMAND=/usr/bin/su
+2025-05-18T17:37:03.888056+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-18T17:37:03.889721+00:00 proyecto-vm1 su[8232]: (to root) root on pts/3
+2025-05-18T17:37:03.893957+00:00 proyecto-vm1 su[8232]: pam_unix(su:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-18T17:45:01.986587+00:00 proyecto-vm1 CRON[10745]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T17:45:01.990095+00:00 proyecto-vm1 CRON[10745]: pam_unix(cron:session): session closed for user root
+2025-05-18T17:55:02.005996+00:00 proyecto-vm1 CRON[13641]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T17:55:02.008117+00:00 proyecto-vm1 CRON[13641]: pam_unix(cron:session): session closed for user root
+2025-05-18T18:05:01.020006+00:00 proyecto-vm1 CRON[13904]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T18:05:01.022764+00:00 proyecto-vm1 CRON[13904]: pam_unix(cron:session): session closed for user root
+2025-05-18T18:15:01.032748+00:00 proyecto-vm1 CRON[14114]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T18:15:01.034292+00:00 proyecto-vm1 CRON[14114]: pam_unix(cron:session): session closed for user root
+2025-05-18T18:17:01.039899+00:00 proyecto-vm1 CRON[14154]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T18:17:01.045668+00:00 proyecto-vm1 CRON[14154]: pam_unix(cron:session): session closed for user root
+2025-05-18T18:25:01.052765+00:00 proyecto-vm1 CRON[14322]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T18:25:01.054331+00:00 proyecto-vm1 CRON[14322]: pam_unix(cron:session): session closed for user root
+2025-05-18T18:35:01.064186+00:00 proyecto-vm1 CRON[14516]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T18:35:01.065946+00:00 proyecto-vm1 CRON[14516]: pam_unix(cron:session): session closed for user root
+2025-05-18T18:45:01.074935+00:00 proyecto-vm1 CRON[14706]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T18:45:01.079035+00:00 proyecto-vm1 CRON[14706]: pam_unix(cron:session): session closed for user root
+2025-05-18T18:55:01.087765+00:00 proyecto-vm1 CRON[14853]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-18T18:55:01.089610+00:00 proyecto-vm1 CRON[14853]: pam_unix(cron:session): session closed for user root
+2025-05-18T19:01:32.242405+00:00 proyecto-vm1 sudo:     root : TTY=pts/3 ; PWD=/home/docker/elk-nfs ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+2025-05-18T19:01:32.243205+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-18T19:01:32.255693+00:00 proyecto-vm1 systemd-logind[807]: The system will power off now!
+2025-05-18T19:01:32.268370+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-18T19:01:32.386834+00:00 proyecto-vm1 systemd-logind[807]: System is powering down.
+2025-05-18T19:01:32.413951+00:00 proyecto-vm1 sshd[1543]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T19:01:32.414619+00:00 proyecto-vm1 sshd[1861]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T19:01:32.416399+00:00 proyecto-vm1 sshd[4441]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T19:01:32.419591+00:00 proyecto-vm1 su[8232]: pam_unix(su:session): session closed for user root
+2025-05-18T19:01:32.421838+00:00 proyecto-vm1 sshd[2041]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T19:01:32.441873+00:00 proyecto-vm1 sshd[7197]: pam_unix(sshd:session): session closed for user docker
+2025-05-18T19:01:32.442197+00:00 proyecto-vm1 sshd[7753]: pam_unix(sshd:session): session closed for user docker
+2025-05-19T16:24:04.087897+00:00 proyecto-vm1 systemd-logind[857]: New seat seat0.
+2025-05-19T16:24:04.087899+00:00 proyecto-vm1 systemd-logind[857]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-05-19T16:24:04.087900+00:00 proyecto-vm1 systemd-logind[857]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-05-19T16:24:04.092341+00:00 proyecto-vm1 polkitd[848]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-19T16:24:04.092358+00:00 proyecto-vm1 polkitd[848]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-19T16:24:04.092360+00:00 proyecto-vm1 polkitd[848]: Finished loading, compiling and executing 6 rules
+2025-05-19T16:24:04.092363+00:00 proyecto-vm1 polkitd[848]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-19T16:25:01.424491+00:00 proyecto-vm1 CRON[1588]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T16:25:01.427514+00:00 proyecto-vm1 CRON[1588]: pam_unix(cron:session): session closed for user root
+2025-05-19T16:25:53.785468+00:00 proyecto-vm1 sshd[1594]: Server listening on :: port 22.
+2025-05-19T16:26:02.766967+00:00 proyecto-vm1 sshd[1596]: Accepted password for docker from 10.240.17.1 port 57688 ssh2
+2025-05-19T16:26:02.768202+00:00 proyecto-vm1 sshd[1596]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T16:26:02.785981+00:00 proyecto-vm1 systemd-logind[857]: New session 2 of user docker.
+2025-05-19T16:26:02.795618+00:00 proyecto-vm1 (systemd): pam_unix(systemd-user:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T16:26:38.626087+00:00 proyecto-vm1 sshd[1818]: Accepted password for docker from 10.240.17.1 port 57872 ssh2
+2025-05-19T16:26:38.627780+00:00 proyecto-vm1 sshd[1818]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T16:26:38.629886+00:00 proyecto-vm1 systemd-logind[857]: New session 4 of user docker.
+2025-05-19T16:28:06.542553+00:00 proyecto-vm1 sshd[1906]: Accepted password for docker from 10.240.17.1 port 58189 ssh2
+2025-05-19T16:28:06.543905+00:00 proyecto-vm1 sshd[1906]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T16:28:06.546192+00:00 proyecto-vm1 systemd-logind[857]: New session 5 of user docker.
+2025-05-19T16:35:01.436020+00:00 proyecto-vm1 CRON[2100]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T16:35:01.437869+00:00 proyecto-vm1 CRON[2100]: pam_unix(cron:session): session closed for user root
+2025-05-19T16:45:01.444347+00:00 proyecto-vm1 CRON[2460]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T16:45:01.446876+00:00 proyecto-vm1 CRON[2460]: pam_unix(cron:session): session closed for user root
+2025-05-19T16:55:01.453480+00:00 proyecto-vm1 CRON[2655]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T16:55:01.454970+00:00 proyecto-vm1 CRON[2655]: pam_unix(cron:session): session closed for user root
+2025-05-19T17:05:01.462008+00:00 proyecto-vm1 CRON[2868]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T17:05:01.464963+00:00 proyecto-vm1 CRON[2868]: pam_unix(cron:session): session closed for user root
+2025-05-19T17:13:14.978566+00:00 proyecto-vm1 sshd[3031]: Accepted password for docker from 10.240.17.1 port 53534 ssh2
+2025-05-19T17:13:14.981032+00:00 proyecto-vm1 sshd[3031]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T17:13:14.983303+00:00 proyecto-vm1 systemd-logind[857]: New session 10 of user docker.
+2025-05-19T17:13:19.640127+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/home/docker/elk-single ; USER=root ; COMMAND=/usr/bin/su
+2025-05-19T17:13:19.642743+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-19T17:13:19.646667+00:00 proyecto-vm1 su[3101]: (to root) root on pts/2
+2025-05-19T17:13:19.646758+00:00 proyecto-vm1 su[3101]: pam_unix(su:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-19T17:15:01.472946+00:00 proyecto-vm1 CRON[3155]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T17:15:01.474369+00:00 proyecto-vm1 CRON[3155]: pam_unix(cron:session): session closed for user root
+2025-05-19T17:15:31.016107+00:00 proyecto-vm1 sudo:     root : TTY=pts/2 ; PWD=/elk-single ; USER=root ; COMMAND=/usr/bin/chown nobody:nogroup . -R
+2025-05-19T17:15:31.016268+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-19T17:15:31.020269+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-19T17:17:01.477341+00:00 proyecto-vm1 CRON[3206]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T17:17:01.479863+00:00 proyecto-vm1 CRON[3206]: pam_unix(cron:session): session closed for user root
+2025-05-19T17:25:01.486596+00:00 proyecto-vm1 CRON[3387]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T17:25:01.489470+00:00 proyecto-vm1 CRON[3387]: pam_unix(cron:session): session closed for user root
+2025-05-19T17:35:01.495680+00:00 proyecto-vm1 CRON[3590]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T17:35:01.497193+00:00 proyecto-vm1 CRON[3590]: pam_unix(cron:session): session closed for user root
+2025-05-19T17:41:06.238594+00:00 proyecto-vm1 sshd[9675]: Accepted password for docker from 10.240.17.1 port 60350 ssh2
+2025-05-19T17:41:06.241235+00:00 proyecto-vm1 sshd[9675]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T17:41:06.259538+00:00 proyecto-vm1 systemd-logind[857]: New session 15 of user docker.
+2025-05-19T17:43:27.418740+00:00 proyecto-vm1 sshd[10562]: Accepted password for docker from 10.240.17.1 port 60938 ssh2
+2025-05-19T17:43:27.420307+00:00 proyecto-vm1 sshd[10562]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T17:43:27.422466+00:00 proyecto-vm1 systemd-logind[857]: New session 16 of user docker.
+2025-05-19T17:45:01.515200+00:00 proyecto-vm1 CRON[11096]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T17:45:01.518725+00:00 proyecto-vm1 CRON[11096]: pam_unix(cron:session): session closed for user root
+2025-05-19T17:55:01.542936+00:00 proyecto-vm1 CRON[14216]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T17:55:01.549412+00:00 proyecto-vm1 CRON[14216]: pam_unix(cron:session): session closed for user root
+2025-05-19T18:05:01.558388+00:00 proyecto-vm1 CRON[16311]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T18:05:01.560204+00:00 proyecto-vm1 CRON[16311]: pam_unix(cron:session): session closed for user root
+2025-05-19T18:15:01.570134+00:00 proyecto-vm1 CRON[16502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T18:15:01.571972+00:00 proyecto-vm1 CRON[16502]: pam_unix(cron:session): session closed for user root
+2025-05-19T18:17:01.577754+00:00 proyecto-vm1 CRON[16544]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T18:17:01.583737+00:00 proyecto-vm1 CRON[16544]: pam_unix(cron:session): session closed for user root
+2025-05-19T18:25:01.592669+00:00 proyecto-vm1 CRON[16697]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T18:25:01.595479+00:00 proyecto-vm1 CRON[16697]: pam_unix(cron:session): session closed for user root
+2025-05-19T18:35:01.624613+00:00 proyecto-vm1 CRON[21305]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T18:35:01.635459+00:00 proyecto-vm1 CRON[21305]: pam_unix(cron:session): session closed for user root
+2025-05-19T18:40:22.246392+00:00 proyecto-vm1 sshd[1906]: pam_unix(sshd:session): session closed for user docker
+2025-05-19T18:40:22.252957+00:00 proyecto-vm1 sshd[1596]: pam_unix(sshd:session): session closed for user docker
+2025-05-19T18:40:22.269280+00:00 proyecto-vm1 systemd-logind[857]: Session 5 logged out. Waiting for processes to exit.
+2025-05-19T18:40:22.270998+00:00 proyecto-vm1 systemd-logind[857]: Session 2 logged out. Waiting for processes to exit.
+2025-05-19T18:40:22.272124+00:00 proyecto-vm1 systemd-logind[857]: Removed session 5.
+2025-05-19T18:40:22.273913+00:00 proyecto-vm1 systemd-logind[857]: Removed session 2.
+2025-05-19T18:40:29.010503+00:00 proyecto-vm1 sshd[22016]: Accepted password for docker from 10.240.17.1 port 58843 ssh2
+2025-05-19T18:40:29.011735+00:00 proyecto-vm1 sshd[22016]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T18:40:29.019411+00:00 proyecto-vm1 systemd-logind[857]: New session 24 of user docker.
+2025-05-19T18:40:41.253031+00:00 proyecto-vm1 sshd[22077]: Accepted password for docker from 10.240.17.1 port 58900 ssh2
+2025-05-19T18:40:41.254701+00:00 proyecto-vm1 sshd[22077]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-19T18:40:41.257901+00:00 proyecto-vm1 systemd-logind[857]: New session 25 of user docker.
+2025-05-19T18:45:01.647636+00:00 proyecto-vm1 CRON[26477]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T18:45:01.653034+00:00 proyecto-vm1 CRON[26477]: pam_unix(cron:session): session closed for user root
+2025-05-19T18:55:01.670832+00:00 proyecto-vm1 CRON[37163]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-19T18:55:01.673524+00:00 proyecto-vm1 CRON[37163]: pam_unix(cron:session): session closed for user root
+2025-05-19T19:02:45.409189+00:00 proyecto-vm1 systemd-logind[857]: The system will power off now!
+2025-05-19T19:02:45.714068+00:00 proyecto-vm1 systemd-logind[857]: System is powering down.
+2025-05-19T19:02:45.746789+00:00 proyecto-vm1 su[3101]: pam_unix(su:session): session closed for user root
+2025-05-19T19:02:45.749858+00:00 proyecto-vm1 sshd[1818]: pam_unix(sshd:session): session closed for user docker
+2025-05-19T19:02:45.750975+00:00 proyecto-vm1 sshd[22016]: pam_unix(sshd:session): session closed for user docker
+2025-05-19T19:02:45.751480+00:00 proyecto-vm1 sshd[22077]: pam_unix(sshd:session): session closed for user docker
+2025-05-19T19:02:45.753440+00:00 proyecto-vm1 sshd[10562]: pam_unix(sshd:session): session closed for user docker
+2025-05-19T19:02:45.755446+00:00 proyecto-vm1 sshd[3031]: pam_unix(sshd:session): session closed for user docker
+2025-05-19T19:02:45.755907+00:00 proyecto-vm1 sshd[9675]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T02:42:52.706878+00:00 proyecto-vm1 systemd-logind[802]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-05-20T02:42:52.706879+00:00 proyecto-vm1 systemd-logind[802]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-05-20T02:42:52.706881+00:00 proyecto-vm1 systemd-logind[802]: New seat seat0.
+2025-05-20T02:42:52.706924+00:00 proyecto-vm1 polkitd[778]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-20T02:42:52.706927+00:00 proyecto-vm1 polkitd[778]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-20T02:42:52.706950+00:00 proyecto-vm1 polkitd[778]: Finished loading, compiling and executing 6 rules
+2025-05-20T02:42:52.706956+00:00 proyecto-vm1 polkitd[778]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-20T02:43:51.696708+00:00 proyecto-vm1 sshd[1654]: Server listening on :: port 22.
+2025-05-20T02:43:52.431255+00:00 proyecto-vm1 sshd[1655]: Accepted password for docker from 10.240.17.1 port 65459 ssh2
+2025-05-20T02:43:52.433209+00:00 proyecto-vm1 sshd[1655]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T02:43:52.459187+00:00 proyecto-vm1 systemd-logind[802]: New session 1 of user docker.
+2025-05-20T02:43:52.472085+00:00 proyecto-vm1 (systemd): pam_unix(systemd-user:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T02:44:09.394298+00:00 proyecto-vm1 sshd[1776]: Accepted password for docker from 10.240.17.1 port 65532 ssh2
+2025-05-20T02:44:09.395546+00:00 proyecto-vm1 sshd[1776]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T02:44:09.401066+00:00 proyecto-vm1 systemd-logind[802]: New session 3 of user docker.
+2025-05-20T02:45:01.468095+00:00 proyecto-vm1 CRON[1852]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T02:45:01.471405+00:00 proyecto-vm1 CRON[1852]: pam_unix(cron:session): session closed for user root
+2025-05-20T02:52:40.831750+00:00 proyecto-vm1 sshd[2077]: Accepted password for docker from 10.240.17.1 port 51735 ssh2
+2025-05-20T02:52:40.833977+00:00 proyecto-vm1 sshd[2077]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T02:52:40.837341+00:00 proyecto-vm1 systemd-logind[802]: New session 5 of user docker.
+2025-05-20T02:55:01.478228+00:00 proyecto-vm1 CRON[2182]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T02:55:01.480074+00:00 proyecto-vm1 CRON[2182]: pam_unix(cron:session): session closed for user root
+2025-05-20T02:56:05.794341+00:00 proyecto-vm1 sshd[2203]: Accepted password for docker from 10.240.17.1 port 52569 ssh2
+2025-05-20T02:56:05.795734+00:00 proyecto-vm1 sshd[2203]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T02:56:05.799408+00:00 proyecto-vm1 systemd-logind[802]: New session 7 of user docker.
+2025-05-20T02:56:25.912252+00:00 proyecto-vm1 sudo: pam_unix(sudo:auth): authentication failure; logname=docker uid=1001 euid=0 tty=/dev/pts/0 ruser=docker rhost=  user=docker
+2025-05-20T02:56:30.355378+00:00 proyecto-vm1 sudo:   docker : TTY=pts/0 ; PWD=/home/docker/elk-single ; USER=root ; COMMAND=/usr/bin/su
+2025-05-20T02:56:30.355924+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T02:56:30.362506+00:00 proyecto-vm1 su[2279]: (to root) root on pts/2
+2025-05-20T02:56:30.362573+00:00 proyecto-vm1 su[2279]: pam_unix(su:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-20T02:56:32.934517+00:00 proyecto-vm1 sudo:     root : TTY=pts/2 ; PWD=/home/docker/elk-single ; USER=root ; COMMAND=/usr/bin/su
+2025-05-20T02:56:32.934782+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-20T02:56:32.937504+00:00 proyecto-vm1 su[2289]: (to root) root on pts/3
+2025-05-20T02:56:32.937555+00:00 proyecto-vm1 su[2289]: pam_unix(su:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-20T02:59:53.510445+00:00 proyecto-vm1 sshd[2365]: Accepted password for docker from 10.240.17.1 port 53488 ssh2
+2025-05-20T02:59:53.513496+00:00 proyecto-vm1 sshd[2365]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T02:59:53.516589+00:00 proyecto-vm1 systemd-logind[802]: New session 8 of user docker.
+2025-05-20T03:05:01.486815+00:00 proyecto-vm1 CRON[2553]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T03:05:01.488546+00:00 proyecto-vm1 CRON[2553]: pam_unix(cron:session): session closed for user root
+2025-05-20T03:10:01.492781+00:00 proyecto-vm1 CRON[2668]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T03:10:01.494585+00:00 proyecto-vm1 CRON[2668]: pam_unix(cron:session): session closed for user root
+2025-05-20T03:15:01.526732+00:00 proyecto-vm1 CRON[8526]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T03:15:01.530364+00:00 proyecto-vm1 CRON[8526]: pam_unix(cron:session): session closed for user root
+2025-05-20T03:17:01.536946+00:00 proyecto-vm1 CRON[8829]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T03:17:01.542635+00:00 proyecto-vm1 CRON[8829]: pam_unix(cron:session): session closed for user root
+2025-05-20T03:25:01.562849+00:00 proyecto-vm1 CRON[14559]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T03:25:01.564647+00:00 proyecto-vm1 CRON[14559]: pam_unix(cron:session): session closed for user root
+2025-05-20T03:35:01.575163+00:00 proyecto-vm1 CRON[14770]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T03:35:01.577186+00:00 proyecto-vm1 CRON[14770]: pam_unix(cron:session): session closed for user root
+2025-05-20T03:45:01.585330+00:00 proyecto-vm1 CRON[22427]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T03:45:01.587672+00:00 proyecto-vm1 CRON[22427]: pam_unix(cron:session): session closed for user root
+2025-05-20T03:55:01.609518+00:00 proyecto-vm1 CRON[36854]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T03:55:01.611286+00:00 proyecto-vm1 CRON[36854]: pam_unix(cron:session): session closed for user root
+2025-05-20T04:05:01.624370+00:00 proyecto-vm1 CRON[41540]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T04:05:01.626164+00:00 proyecto-vm1 CRON[41540]: pam_unix(cron:session): session closed for user root
+2025-05-20T04:15:01.652066+00:00 proyecto-vm1 CRON[50993]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T04:15:01.654163+00:00 proyecto-vm1 CRON[50993]: pam_unix(cron:session): session closed for user root
+2025-05-20T04:17:01.660501+00:00 proyecto-vm1 CRON[51033]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T04:17:01.664808+00:00 proyecto-vm1 CRON[51033]: pam_unix(cron:session): session closed for user root
+2025-05-20T04:25:01.686371+00:00 proyecto-vm1 CRON[56223]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T04:25:01.687820+00:00 proyecto-vm1 CRON[56223]: pam_unix(cron:session): session closed for user root
+2025-05-20T04:35:01.715312+00:00 proyecto-vm1 CRON[61445]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T04:35:01.716551+00:00 proyecto-vm1 CRON[61445]: pam_unix(cron:session): session closed for user root
+2025-05-20T04:45:01.756832+00:00 proyecto-vm1 CRON[68717]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T04:45:01.760868+00:00 proyecto-vm1 CRON[68717]: pam_unix(cron:session): session closed for user root
+2025-05-20T04:46:25.791617+00:00 proyecto-vm1 sshd[69287]: Accepted password for docker from 10.240.17.1 port 65262 ssh2
+2025-05-20T04:46:25.792683+00:00 proyecto-vm1 sshd[69287]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T04:46:25.809788+00:00 proyecto-vm1 systemd-logind[802]: New session 23 of user docker.
+2025-05-20T04:55:01.775064+00:00 proyecto-vm1 CRON[69550]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T04:55:01.776703+00:00 proyecto-vm1 CRON[69550]: pam_unix(cron:session): session closed for user root
+2025-05-20T05:05:01.784900+00:00 proyecto-vm1 CRON[69748]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T05:05:01.786895+00:00 proyecto-vm1 CRON[69748]: pam_unix(cron:session): session closed for user root
+2025-05-20T05:15:01.798620+00:00 proyecto-vm1 CRON[69941]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T05:15:01.802283+00:00 proyecto-vm1 CRON[69941]: pam_unix(cron:session): session closed for user root
+2025-05-20T05:17:01.808593+00:00 proyecto-vm1 CRON[69980]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T05:17:01.811606+00:00 proyecto-vm1 CRON[69980]: pam_unix(cron:session): session closed for user root
+2025-05-20T05:25:01.852575+00:00 proyecto-vm1 CRON[76444]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T05:25:01.855184+00:00 proyecto-vm1 CRON[76444]: pam_unix(cron:session): session closed for user root
+2025-05-20T05:34:50.508923+00:00 proyecto-vm1 sshd[1776]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T05:34:50.535849+00:00 proyecto-vm1 su[2289]: pam_unix(su:session): session closed for user root
+2025-05-20T05:34:50.585792+00:00 proyecto-vm1 systemd-logind[802]: Session 3 logged out. Waiting for processes to exit.
+2025-05-20T05:34:50.589237+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T05:34:50.630718+00:00 proyecto-vm1 su[2279]: pam_unix(su:session): session closed for user root
+2025-05-20T05:34:50.647492+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T05:34:50.721953+00:00 proyecto-vm1 systemd-logind[802]: Removed session 3.
+2025-05-20T05:35:01.874492+00:00 proyecto-vm1 CRON[83953]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T05:35:01.876197+00:00 proyecto-vm1 CRON[83953]: pam_unix(cron:session): session closed for user root
+2025-05-20T05:39:36.518198+00:00 proyecto-vm1 sudo: pam_unix(sudo:auth): authentication failure; logname=docker uid=1001 euid=0 tty=/dev/pts/1 ruser=docker rhost=  user=docker
+2025-05-20T05:39:39.985165+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/elk-single/filebeat ; USER=root ; COMMAND=/usr/bin/chown luser logs
+2025-05-20T05:39:39.989643+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T05:39:39.995221+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T05:44:23.116711+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/elk-single/filebeat ; USER=root ; COMMAND=/usr/bin/mkdir filebeat_ingest_data
+2025-05-20T05:44:23.119847+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T05:44:23.119874+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T05:45:01.168705+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/elk-single/filebeat ; USER=root ; COMMAND=/usr/bin/chown luser:nogroup filebeat_ingest_data
+2025-05-20T05:45:01.171068+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T05:45:01.171097+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T05:45:01.891051+00:00 proyecto-vm1 CRON[85836]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T05:45:01.892771+00:00 proyecto-vm1 CRON[85836]: pam_unix(cron:session): session closed for user root
+2025-05-20T05:45:52.112357+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/elk-single ; USER=root ; COMMAND=/usr/bin/chown luser logstash/logs/
+2025-05-20T05:45:52.114963+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T05:45:52.115050+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T05:46:32.600313+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/elk-single ; USER=root ; COMMAND=/usr/bin/chown nobody logstash/logs/
+2025-05-20T05:46:32.600732+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T05:46:32.602002+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T05:46:51.869109+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/elk-single ; USER=root ; COMMAND=/usr/bin/chown nobody:nogroup filebeat/filebeat_ingest_data
+2025-05-20T05:46:51.869292+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T05:46:51.870364+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T05:55:01.932884+00:00 proyecto-vm1 CRON[92008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T05:55:01.949542+00:00 proyecto-vm1 CRON[92008]: pam_unix(cron:session): session closed for user root
+2025-05-20T06:05:01.975892+00:00 proyecto-vm1 CRON[95258]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T06:05:01.978521+00:00 proyecto-vm1 CRON[95258]: pam_unix(cron:session): session closed for user root
+2025-05-20T06:15:01.991364+00:00 proyecto-vm1 CRON[96885]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T06:15:01.993726+00:00 proyecto-vm1 CRON[96885]: pam_unix(cron:session): session closed for user root
+2025-05-20T06:17:01.998762+00:00 proyecto-vm1 CRON[96940]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T06:17:02.004451+00:00 proyecto-vm1 CRON[96940]: pam_unix(cron:session): session closed for user root
+2025-05-20T06:25:01.015569+00:00 proyecto-vm1 CRON[97097]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T06:25:01.015713+00:00 proyecto-vm1 CRON[97096]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T06:25:01.017146+00:00 proyecto-vm1 CRON[97097]: pam_unix(cron:session): session closed for user root
+2025-05-20T06:25:01.031360+00:00 proyecto-vm1 CRON[97096]: pam_unix(cron:session): session closed for user root
+2025-05-20T06:35:01.041832+00:00 proyecto-vm1 CRON[97299]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T06:35:01.043475+00:00 proyecto-vm1 CRON[97299]: pam_unix(cron:session): session closed for user root
+2025-05-20T06:45:01.054398+00:00 proyecto-vm1 CRON[97492]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T06:45:01.055976+00:00 proyecto-vm1 CRON[97492]: pam_unix(cron:session): session closed for user root
+2025-05-20T06:55:01.068837+00:00 proyecto-vm1 CRON[97802]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T06:55:01.070891+00:00 proyecto-vm1 CRON[97802]: pam_unix(cron:session): session closed for user root
+2025-05-20T07:05:01.084850+00:00 proyecto-vm1 CRON[97993]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T07:05:01.084973+00:00 proyecto-vm1 CRON[97993]: pam_unix(cron:session): session closed for user root
+2025-05-20T07:15:01.093150+00:00 proyecto-vm1 CRON[98218]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T07:15:01.095307+00:00 proyecto-vm1 CRON[98218]: pam_unix(cron:session): session closed for user root
+2025-05-20T07:17:01.100943+00:00 proyecto-vm1 CRON[98257]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T07:17:01.103093+00:00 proyecto-vm1 CRON[98257]: pam_unix(cron:session): session closed for user root
+2025-05-20T07:25:01.112053+00:00 proyecto-vm1 CRON[98412]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T07:25:01.114477+00:00 proyecto-vm1 CRON[98412]: pam_unix(cron:session): session closed for user root
+2025-05-20T07:35:01.128972+00:00 proyecto-vm1 CRON[98605]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T07:35:01.130886+00:00 proyecto-vm1 CRON[98605]: pam_unix(cron:session): session closed for user root
+2025-05-20T07:45:01.145524+00:00 proyecto-vm1 CRON[98810]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T07:45:01.148256+00:00 proyecto-vm1 CRON[98810]: pam_unix(cron:session): session closed for user root
+2025-05-20T07:50:13.044360+00:00 proyecto-vm1 sshd[104239]: Accepted password for docker from 10.240.17.1 port 63076 ssh2
+2025-05-20T07:50:13.056928+00:00 proyecto-vm1 sshd[104239]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T07:50:13.078652+00:00 proyecto-vm1 systemd-logind[802]: New session 46 of user docker.
+2025-05-20T07:50:16.782882+00:00 proyecto-vm1 sudo:   docker : TTY=pts/0 ; PWD=/home/docker/elk-single ; USER=root ; COMMAND=/usr/bin/su
+2025-05-20T07:50:16.797217+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T07:50:16.798189+00:00 proyecto-vm1 su[104381]: (to root) root on pts/2
+2025-05-20T07:50:16.799404+00:00 proyecto-vm1 su[104381]: pam_unix(su:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-20T07:55:01.192762+00:00 proyecto-vm1 CRON[105878]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T07:55:01.197860+00:00 proyecto-vm1 CRON[105878]: pam_unix(cron:session): session closed for user root
+2025-05-20T08:05:01.229816+00:00 proyecto-vm1 CRON[109197]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T08:05:01.233448+00:00 proyecto-vm1 CRON[109197]: pam_unix(cron:session): session closed for user root
+2025-05-20T08:15:01.265759+00:00 proyecto-vm1 CRON[115666]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T08:15:01.270173+00:00 proyecto-vm1 CRON[115666]: pam_unix(cron:session): session closed for user root
+2025-05-20T08:17:01.276971+00:00 proyecto-vm1 CRON[116295]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T08:17:01.281476+00:00 proyecto-vm1 CRON[116295]: pam_unix(cron:session): session closed for user root
+2025-05-20T08:25:01.307561+00:00 proyecto-vm1 CRON[118008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T08:25:01.309460+00:00 proyecto-vm1 CRON[118008]: pam_unix(cron:session): session closed for user root
+2025-05-20T08:35:01.351042+00:00 proyecto-vm1 CRON[124747]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T08:35:01.355609+00:00 proyecto-vm1 CRON[124747]: pam_unix(cron:session): session closed for user root
+2025-05-20T08:45:01.390622+00:00 proyecto-vm1 CRON[128281]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T08:45:01.397322+00:00 proyecto-vm1 CRON[128281]: pam_unix(cron:session): session closed for user root
+2025-05-20T08:52:24.153220+00:00 proyecto-vm1 sshd[2077]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T08:52:24.159087+00:00 proyecto-vm1 sshd[1655]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T08:52:24.220642+00:00 proyecto-vm1 systemd-logind[802]: Session 5 logged out. Waiting for processes to exit.
+2025-05-20T08:52:24.221954+00:00 proyecto-vm1 systemd-logind[802]: Session 1 logged out. Waiting for processes to exit.
+2025-05-20T08:52:24.223927+00:00 proyecto-vm1 systemd-logind[802]: Removed session 5.
+2025-05-20T08:52:24.226656+00:00 proyecto-vm1 systemd-logind[802]: Removed session 1.
+2025-05-20T08:52:27.393883+00:00 proyecto-vm1 sshd[131184]: Accepted password for docker from 10.240.17.1 port 62511 ssh2
+2025-05-20T08:52:27.394423+00:00 proyecto-vm1 sshd[131184]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T08:52:27.405195+00:00 proyecto-vm1 systemd-logind[802]: New session 54 of user docker.
+2025-05-20T08:52:38.684878+00:00 proyecto-vm1 sshd[131339]: Accepted password for docker from 10.240.17.1 port 62556 ssh2
+2025-05-20T08:52:38.687226+00:00 proyecto-vm1 sshd[131339]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T08:52:38.689397+00:00 proyecto-vm1 systemd-logind[802]: New session 55 of user docker.
+2025-05-20T08:55:01.426123+00:00 proyecto-vm1 CRON[132483]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T08:55:01.428676+00:00 proyecto-vm1 CRON[132483]: pam_unix(cron:session): session closed for user root
+2025-05-20T09:05:01.473497+00:00 proyecto-vm1 CRON[139933]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T09:05:01.478744+00:00 proyecto-vm1 CRON[139933]: pam_unix(cron:session): session closed for user root
+2025-05-20T09:15:01.516811+00:00 proyecto-vm1 CRON[151317]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T09:15:01.520301+00:00 proyecto-vm1 CRON[151317]: pam_unix(cron:session): session closed for user root
+2025-05-20T09:17:01.553253+00:00 proyecto-vm1 CRON[154264]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T09:17:01.558511+00:00 proyecto-vm1 CRON[154264]: pam_unix(cron:session): session closed for user root
+2025-05-20T09:25:01.577588+00:00 proyecto-vm1 CRON[156744]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T09:25:01.581785+00:00 proyecto-vm1 CRON[156744]: pam_unix(cron:session): session closed for user root
+2025-05-20T09:35:01.611840+00:00 proyecto-vm1 CRON[160069]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T09:35:01.616647+00:00 proyecto-vm1 CRON[160069]: pam_unix(cron:session): session closed for user root
+2025-05-20T09:44:41.739255+00:00 proyecto-vm1 sshd[131339]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T09:44:41.763604+00:00 proyecto-vm1 sshd[131184]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T09:44:41.794434+00:00 proyecto-vm1 systemd-logind[802]: Session 55 logged out. Waiting for processes to exit.
+2025-05-20T09:44:41.795898+00:00 proyecto-vm1 systemd-logind[802]: Session 54 logged out. Waiting for processes to exit.
+2025-05-20T09:44:41.798064+00:00 proyecto-vm1 systemd-logind[802]: Removed session 55.
+2025-05-20T09:44:41.800644+00:00 proyecto-vm1 systemd-logind[802]: Removed session 54.
+2025-05-20T09:44:44.329919+00:00 proyecto-vm1 sshd[163274]: Accepted password for docker from 10.240.17.1 port 60041 ssh2
+2025-05-20T09:44:44.331948+00:00 proyecto-vm1 sshd[163274]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T09:44:44.347029+00:00 proyecto-vm1 systemd-logind[802]: New session 62 of user docker.
+2025-05-20T09:44:54.762563+00:00 proyecto-vm1 sshd[163386]: Accepted password for docker from 10.240.17.1 port 60082 ssh2
+2025-05-20T09:44:54.765755+00:00 proyecto-vm1 sshd[163386]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T09:44:54.769361+00:00 proyecto-vm1 systemd-logind[802]: New session 63 of user docker.
+2025-05-20T09:45:01.634411+00:00 proyecto-vm1 CRON[163484]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T09:45:01.637541+00:00 proyecto-vm1 CRON[163484]: pam_unix(cron:session): session closed for user root
+2025-05-20T09:55:01.667477+00:00 proyecto-vm1 CRON[167194]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T09:55:01.671392+00:00 proyecto-vm1 CRON[167194]: pam_unix(cron:session): session closed for user root
+2025-05-20T10:05:01.701322+00:00 proyecto-vm1 CRON[170316]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T10:05:01.709419+00:00 proyecto-vm1 CRON[170316]: pam_unix(cron:session): session closed for user root
+2025-05-20T10:15:01.724767+00:00 proyecto-vm1 CRON[173641]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T10:15:01.726946+00:00 proyecto-vm1 CRON[173641]: pam_unix(cron:session): session closed for user root
+2025-05-20T10:17:01.733789+00:00 proyecto-vm1 CRON[174265]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T10:17:01.737323+00:00 proyecto-vm1 CRON[174265]: pam_unix(cron:session): session closed for user root
+2025-05-20T10:24:33.237445+00:00 proyecto-vm1 sshd[163386]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T10:24:33.240017+00:00 proyecto-vm1 sshd[163274]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T10:24:33.254262+00:00 proyecto-vm1 systemd-logind[802]: Session 63 logged out. Waiting for processes to exit.
+2025-05-20T10:24:33.255056+00:00 proyecto-vm1 systemd-logind[802]: Session 62 logged out. Waiting for processes to exit.
+2025-05-20T10:24:33.256283+00:00 proyecto-vm1 systemd-logind[802]: Removed session 63.
+2025-05-20T10:24:33.258432+00:00 proyecto-vm1 systemd-logind[802]: Removed session 62.
+2025-05-20T10:25:01.762891+00:00 proyecto-vm1 CRON[176387]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T10:25:01.764637+00:00 proyecto-vm1 CRON[176387]: pam_unix(cron:session): session closed for user root
+2025-05-20T10:26:07.145448+00:00 proyecto-vm1 sudo:   docker : TTY=pts/4 ; PWD=/home/docker/elk-single ; USER=root ; COMMAND=/usr/sbin/shutdown -h now
+2025-05-20T10:26:07.158334+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T10:26:07.159779+00:00 proyecto-vm1 systemd-logind[802]: The system will power off now!
+2025-05-20T10:26:07.170055+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session closed for user root
+2025-05-20T10:26:07.458115+00:00 proyecto-vm1 systemd-logind[802]: System is powering down.
+2025-05-20T10:26:07.496425+00:00 proyecto-vm1 sshd[104239]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T10:26:07.505948+00:00 proyecto-vm1 sshd[69287]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T10:26:07.509755+00:00 proyecto-vm1 sshd[2365]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T10:26:07.511817+00:00 proyecto-vm1 su[104381]: pam_unix(su:session): session closed for user root
+2025-05-20T10:26:07.514346+00:00 proyecto-vm1 sshd[2203]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T15:31:25.044207+00:00 proyecto-vm1 systemd-logind[878]: New seat seat0.
+2025-05-20T15:31:25.044211+00:00 proyecto-vm1 systemd-logind[878]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-05-20T15:31:25.044212+00:00 proyecto-vm1 systemd-logind[878]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+2025-05-20T15:31:25.044264+00:00 proyecto-vm1 polkitd[862]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-20T15:31:25.044280+00:00 proyecto-vm1 polkitd[862]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-20T15:31:25.044282+00:00 proyecto-vm1 polkitd[862]: Finished loading, compiling and executing 6 rules
+2025-05-20T15:31:25.044284+00:00 proyecto-vm1 polkitd[862]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-20T15:32:05.835118+00:00 proyecto-vm1 sshd[1582]: Server listening on :: port 22.
+2025-05-20T15:32:06.193537+00:00 proyecto-vm1 sshd[1583]: Accepted password for docker from 10.240.17.1 port 55224 ssh2
+2025-05-20T15:32:06.195060+00:00 proyecto-vm1 sshd[1583]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T15:32:06.208810+00:00 proyecto-vm1 systemd-logind[878]: New session 1 of user docker.
+2025-05-20T15:32:06.221242+00:00 proyecto-vm1 (systemd): pam_unix(systemd-user:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T15:35:01.453179+00:00 proyecto-vm1 CRON[1816]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T15:35:01.455790+00:00 proyecto-vm1 CRON[1816]: pam_unix(cron:session): session closed for user root
+2025-05-20T15:38:29.303273+00:00 proyecto-vm1 sshd[1889]: Accepted password for docker from 10.240.17.1 port 57347 ssh2
+2025-05-20T15:38:29.304108+00:00 proyecto-vm1 sshd[1889]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T15:38:29.307072+00:00 proyecto-vm1 systemd-logind[878]: New session 4 of user docker.
+2025-05-20T15:43:10.387451+00:00 proyecto-vm1 sshd[1889]: pam_unix(sshd:session): session closed for user docker
+2025-05-20T15:43:10.390886+00:00 proyecto-vm1 systemd-logind[878]: Session 4 logged out. Waiting for processes to exit.
+2025-05-20T15:43:10.391532+00:00 proyecto-vm1 systemd-logind[878]: Removed session 4.
+2025-05-20T15:45:01.461865+00:00 proyecto-vm1 CRON[2093]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T15:45:01.464403+00:00 proyecto-vm1 CRON[2093]: pam_unix(cron:session): session closed for user root
+2025-05-20T15:48:30.697514+00:00 proyecto-vm1 sshd[2191]: Accepted password for docker from 10.240.17.1 port 59930 ssh2
+2025-05-20T15:48:30.699127+00:00 proyecto-vm1 sshd[2191]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T15:48:30.702029+00:00 proyecto-vm1 systemd-logind[878]: New session 6 of user docker.
+2025-05-20T15:50:14.156333+00:00 proyecto-vm1 sshd[2292]: Accepted password for docker from 10.240.17.1 port 60358 ssh2
+2025-05-20T15:50:14.158532+00:00 proyecto-vm1 sshd[2292]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T15:50:14.162049+00:00 proyecto-vm1 systemd-logind[878]: New session 7 of user docker.
+2025-05-20T15:55:01.471219+00:00 proyecto-vm1 CRON[2453]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T15:55:01.472622+00:00 proyecto-vm1 CRON[2453]: pam_unix(cron:session): session closed for user root
+2025-05-20T16:00:44.207306+00:00 proyecto-vm1 sshd[2565]: Accepted password for docker from 10.240.17.1 port 63079 ssh2
+2025-05-20T16:00:44.209009+00:00 proyecto-vm1 sshd[2565]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T16:00:44.212071+00:00 proyecto-vm1 systemd-logind[878]: New session 9 of user docker.
+2025-05-20T16:00:49.555861+00:00 proyecto-vm1 su: pam_unix(su-l:auth): authentication failure; logname=docker uid=1001 euid=0 tty=/dev/pts/1 ruser=docker rhost=  user=root
+2025-05-20T16:00:52.011902+00:00 proyecto-vm1 su[2639]: FAILED SU (to root) docker on pts/1
+2025-05-20T16:00:57.564059+00:00 proyecto-vm1 sudo:   docker : TTY=pts/1 ; PWD=/home/docker/elk-single ; USER=root ; COMMAND=/usr/bin/su
+2025-05-20T16:00:57.564724+00:00 proyecto-vm1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by docker(uid=1001)
+2025-05-20T16:00:57.567652+00:00 proyecto-vm1 su[2642]: (to root) root on pts/2
+2025-05-20T16:00:57.567757+00:00 proyecto-vm1 su[2642]: pam_unix(su:session): session opened for user root(uid=0) by docker(uid=0)
+2025-05-20T16:01:49.156111+00:00 proyecto-vm1 sshd[2674]: Accepted password for docker from 10.240.17.1 port 63352 ssh2
+2025-05-20T16:01:49.157718+00:00 proyecto-vm1 sshd[2674]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T16:01:49.160734+00:00 proyecto-vm1 systemd-logind[878]: New session 10 of user docker.
+2025-05-20T16:03:47.844034+00:00 proyecto-vm1 sshd[5408]: Accepted password for docker from 10.240.17.1 port 63839 ssh2
+2025-05-20T16:03:47.848623+00:00 proyecto-vm1 sshd[5408]: pam_unix(sshd:session): session opened for user docker(uid=1001) by docker(uid=0)
+2025-05-20T16:03:47.857171+00:00 proyecto-vm1 systemd-logind[878]: New session 11 of user docker.
+2025-05-20T16:05:01.515763+00:00 proyecto-vm1 CRON[7766]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T16:05:01.525931+00:00 proyecto-vm1 CRON[7766]: pam_unix(cron:session): session closed for user root
+2025-05-20T16:15:01.547208+00:00 proyecto-vm1 CRON[9213]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T16:15:01.549264+00:00 proyecto-vm1 CRON[9213]: pam_unix(cron:session): session closed for user root
+2025-05-20T16:17:01.552391+00:00 proyecto-vm1 CRON[9254]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T16:17:01.554971+00:00 proyecto-vm1 CRON[9254]: pam_unix(cron:session): session closed for user root
+2025-05-20T16:25:01.569904+00:00 proyecto-vm1 CRON[9425]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T16:25:01.573721+00:00 proyecto-vm1 CRON[9425]: pam_unix(cron:session): session closed for user root
+2025-05-20T16:35:01.586175+00:00 proyecto-vm1 CRON[9621]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T16:35:01.589422+00:00 proyecto-vm1 CRON[9621]: pam_unix(cron:session): session closed for user root
+2025-05-20T16:45:01.605856+00:00 proyecto-vm1 CRON[9812]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T16:45:01.607542+00:00 proyecto-vm1 CRON[9812]: pam_unix(cron:session): session closed for user root
+2025-05-20T16:55:01.617266+00:00 proyecto-vm1 CRON[10005]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T16:55:01.619119+00:00 proyecto-vm1 CRON[10005]: pam_unix(cron:session): session closed for user root
+2025-05-20T17:05:01.634369+00:00 proyecto-vm1 CRON[10195]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T17:05:01.636808+00:00 proyecto-vm1 CRON[10195]: pam_unix(cron:session): session closed for user root
+2025-05-20T17:15:01.641442+00:00 proyecto-vm1 CRON[21082]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T17:15:01.643817+00:00 proyecto-vm1 CRON[21082]: pam_unix(cron:session): session closed for user root
+2025-05-20T17:17:01.645989+00:00 proyecto-vm1 CRON[21130]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T17:17:01.654361+00:00 proyecto-vm1 CRON[21130]: pam_unix(cron:session): session closed for user root
+2025-05-20T17:25:01.659395+00:00 proyecto-vm1 CRON[21574]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T17:25:01.661174+00:00 proyecto-vm1 CRON[21574]: pam_unix(cron:session): session closed for user root
+2025-05-20T17:35:01.714809+00:00 proyecto-vm1 CRON[28908]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T17:35:01.718306+00:00 proyecto-vm1 CRON[28908]: pam_unix(cron:session): session closed for user root
+2025-05-20T17:45:01.761978+00:00 proyecto-vm1 CRON[32442]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T17:45:01.765555+00:00 proyecto-vm1 CRON[32442]: pam_unix(cron:session): session closed for user root
+2025-05-20T17:55:01.794769+00:00 proyecto-vm1 CRON[35550]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T17:55:01.797663+00:00 proyecto-vm1 CRON[35550]: pam_unix(cron:session): session closed for user root
+2025-05-20T18:05:01.822422+00:00 proyecto-vm1 CRON[38653]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T18:05:01.824908+00:00 proyecto-vm1 CRON[38653]: pam_unix(cron:session): session closed for user root
+2025-05-20T18:15:01.861505+00:00 proyecto-vm1 CRON[42218]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T18:15:01.864755+00:00 proyecto-vm1 CRON[42218]: pam_unix(cron:session): session closed for user root
+2025-05-20T18:17:01.884744+00:00 proyecto-vm1 CRON[42824]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T18:17:01.892392+00:00 proyecto-vm1 CRON[42824]: pam_unix(cron:session): session closed for user root
+2025-05-20T18:25:01.918621+00:00 proyecto-vm1 CRON[45894]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T18:25:01.921329+00:00 proyecto-vm1 CRON[45894]: pam_unix(cron:session): session closed for user root
+2025-05-20T18:35:01.935862+00:00 proyecto-vm1 CRON[49248]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T18:35:01.937866+00:00 proyecto-vm1 CRON[49248]: pam_unix(cron:session): session closed for user root
+2025-05-20T18:45:01.954952+00:00 proyecto-vm1 CRON[52304]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T18:45:01.956909+00:00 proyecto-vm1 CRON[52304]: pam_unix(cron:session): session closed for user root
+2025-05-20T18:55:01.973720+00:00 proyecto-vm1 CRON[55391]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T18:55:01.976422+00:00 proyecto-vm1 CRON[55391]: pam_unix(cron:session): session closed for user root
+2025-05-20T19:05:01.990242+00:00 proyecto-vm1 CRON[58680]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T19:05:01.992254+00:00 proyecto-vm1 CRON[58680]: pam_unix(cron:session): session closed for user root
+2025-05-20T19:15:01.060094+00:00 proyecto-vm1 CRON[62457]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T19:15:01.067791+00:00 proyecto-vm1 CRON[62457]: pam_unix(cron:session): session closed for user root
+2025-05-20T19:17:01.079814+00:00 proyecto-vm1 CRON[63092]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T19:17:01.083500+00:00 proyecto-vm1 CRON[63092]: pam_unix(cron:session): session closed for user root
+2025-05-20T19:25:01.118190+00:00 proyecto-vm1 CRON[66149]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T19:25:01.127486+00:00 proyecto-vm1 CRON[66149]: pam_unix(cron:session): session closed for user root
+2025-05-20T19:35:01.146529+00:00 proyecto-vm1 CRON[68694]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-20T19:35:01.148114+00:00 proyecto-vm1 CRON[68694]: pam_unix(cron:session): session closed for user root
+2025-05-20T19:41:02.524730+00:00 proyecto-vm1 groupadd[73777]: group added to /etc/group: name=plocate, GID=111
+2025-05-20T19:41:02.525622+00:00 proyecto-vm1 groupadd[73777]: group added to /etc/gshadow: name=plocate
+2025-05-20T19:41:02.526581+00:00 proyecto-vm1 groupadd[73777]: new group: name=plocate, GID=111

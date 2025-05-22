@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  webscp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webscraper
+    volumes:
+      # Solo montar el directorio de salida
+      - type: bind
+        # source: ./data/out
+        source: /elk-single/webscp/out
+        target: /data/out
+    env_file: .env
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Madrid
+      - PYTHONUNBUFFERED=1  # Para ver logs en tiempo real
+    # AÑADIDO: Configuración DNS para resolver el problema de conectividad
+    dns:
+      - 8.8.8.8        # Google DNS primario
+      - 8.8.4.4        # Google DNS secundario  
+      - 1.1.1.1        # Cloudflare DNS
+    # AÑADIDO: Configuración adicional de red
+    dns_search:
+      - localdomain
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os; exit(0 if os.path.exists('/data/out') else 1)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - webscp-network
+
+networks:
+  webscp-network:
+    driver: bridge

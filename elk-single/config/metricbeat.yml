@@ -1,0 +1,107 @@
+# Configuración global de módulos
+metricbeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+# Configuración de módulos
+metricbeat.modules:
+
+# Módulo Elasticsearch: Monitoreo del clúster
+- module: elasticsearch
+  xpack.enabled: true
+  metricsets:
+    - node                # Información básica de nodos
+    - node_stats          # Estadísticas detalladas por nodo
+    - index               # Métricas de índices
+    - cluster_stats       # Estadísticas del clúster
+    - ccr                 # Replicación entre clústeres (si aplica)
+    - enrich              # Métricas de políticas de enriquecimiento
+    - shard               # Métricas a nivel de shard
+  period: 10s
+  hosts: ${ELASTIC_HOSTS}
+  username: ${ELASTIC_USER}
+  password: ${ELASTIC_PASSWORD}
+  ssl:
+    enabled: true
+    certificate_authorities: ${CA_CERT}
+
+# Módulo Logstash: Monitoreo de procesamiento por lotes
+- module: logstash
+  xpack.enabled: true
+  metricsets:
+    - node                # Información general del nodo
+    - node_stats          # Estadísticas detalladas del nodo
+    - pipelines           # Métricas de rendimiento de pipelines
+  period: 10s
+  hosts: ${LOGSTASH_HOSTS}
+
+# Módulo Kibana: Monitoreo de interfaz gráfica
+- module: kibana
+  xpack.enabled: true
+  metricsets:
+    - stats               # Estadísticas generales
+    - status              # Estado y disponibilidad del servicio
+  period: 10s
+  hosts: ${KIBANA_HOSTS}
+  username: ${ELASTIC_USER}
+  password: ${ELASTIC_PASSWORD}
+  ssl:
+    enabled: true
+    certificate_authorities: ${CA_CERT}
+
+# Módulo Docker: Monitoreo de contenedores
+- module: docker
+  metricsets:
+    - container           # Información general de contenedores
+    - cpu                 # Métricas de CPU
+    - diskio              # E/S de disco
+    - event               # Eventos del contenedor (inicios, paradas)
+    - healthcheck         # Estado de las verificaciones de salud
+    - info                # Información del daemon Docker
+    - memory              # Uso de memoria
+    - network             # Métricas de red
+    #- image              # Métricas de imágenes
+  hosts: ["unix:///var/run/docker.sock"]
+  period: 10s
+  enabled: true
+
+# Módulo System: Monitoreo del host anfitrión
+- module: system
+  metricsets:
+    - cpu                 # Uso de CPU
+    - load                # Carga del sistema
+    - memory              # Uso de memoria
+    - network             # Métricas de red
+    - process             # Métricas de procesos
+    - process_summary     # Resumen de procesos
+    - socket_summary      # Resumen de sockets
+    - filesystem          # Uso de sistemas de archivos
+    - fsstat              # Estadísticas del sistema de archivos
+  process.include_top_n:
+    by_cpu: 5             # Incluir los 5 procesos con mayor uso de CPU
+    by_memory: 5          # Incluir los 5 procesos con mayor uso de memoria
+  period: 10s
+  enabled: true
+
+# Procesadores para enriquecimiento de datos
+processors:
+  - add_host_metadata: ~
+  - add_docker_metadata: ~
+
+# Configuración de salida hacia Elasticsearch
+output.elasticsearch:
+  hosts: ${ELASTIC_HOSTS}
+  username: ${ELASTIC_USER}
+  password: ${ELASTIC_PASSWORD}
+  ssl:
+    enabled: true
+    certificate_authorities: ${CA_CERT}
+
+# Configuración de logging
+logging.level: info
+logging.to_files: true
+logging.files:
+  path: /var/log/metricbeat
+  name: metricbeat.log
+  keepfiles: 7
+  permissions: 0644

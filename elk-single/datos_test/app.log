@@ -1,0 +1,8 @@
+2025-05-12T10:15:30 INFO Aplicación iniciada correctamente
+2025-05-12T10:15:35 INFO Usuario admin ha iniciado sesión
+2025-05-12T10:16:42 WARN Conexión a la base de datos lenta (200ms)
+2025-05-12T10:17:12 ERROR Excepción en módulo de pagos: Timeout
+2025-05-12T10:17:15 INFO Usuario admin ha cerrado sesión
+2025-05-12T10:18:30 DEBUG Limpieza de caché completada
+2025-05-12T10:19:45 ERROR Excepción en módulo de inventario: Null reference
+2025-05-12T10:20:12 INFO Aplicación cerrada correctamente

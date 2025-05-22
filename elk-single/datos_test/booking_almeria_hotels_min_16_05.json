@@ -1,0 +1,84 @@
+[
+    {
+        "url": "https://www.booking.com/hotel/es/hostal-el-olivar.es.html",
+        "id": "hostal-el-olivar",
+        "nombre": "Boutique Hotel El Olivar",
+        "localidad": "Estación Nueva, 11, 04638 Mojácar, España",
+        "coordenadas": {
+            "latitud": 37.13975876006195,
+            "longitud": -1.8520411849021912
+        },
+        "servicios": [
+            "Parking privado",
+            "WiFi gratis",
+            "Habitaciones sin humo",
+            "Tetera/cafetera en todas las habitaciones",
+            "Bar",
+            "Desayuno excepcional"
+        ],
+        "mascotas": "Información no disponible",
+        "descripcion": "El Boutique Hotel El Olivar ofrece vistas a la sierra de Cabrera y se encuentra en la histórica localidad de Mojácar, frente a la plaza Arbollón. La playa está a 5 minutos en coche.\n\nEl Olivar sirve un desayuno casero con bollería, tostadas y zumos de frutas. El establecimiento también cuenta con solárium con hamaca, cafetería, salón y sauna finlandesa.\n\nLas habitaciones disponen de aire acondicionado, nevera pequeña, TV y baño privado. Hay conexión Wi-Fi gratuita en todas las instalaciones. Todas las habitaciones incluyen set de té y café.\n\nEn los alrededores hay numerosas tiendas, bares y restaurantes. La parada de autobús más cercana está a solo 3 minutos a pie.",
+        "opinion": 9.2,
+        "comentarios": 902,
+        "fechaEntrada": "2025-05-16",
+        "fechaSalida": "2025-05-17",
+        "precio": 87
+    },
+    {
+        "url": "https://www.booking.com/hotel/es/husagranfamaalmeria.es.html",
+        "id": "husagranfamaalmeria",
+        "nombre": "Sercotel Gran Fama",
+        "marca": "Sercotel Hoteles",
+        "localidad": "Avenida Mediterraneo, 311, 04006 Almería, España",
+        "coordenadas": {
+            "latitud": 36.85179920876701,
+            "longitud": -2.446822375059128
+        },
+        "servicios": [
+            "Parking privado",
+            "WiFi gratis",
+            "Restaurante",
+            "Habitaciones sin humo",
+            "Adaptado personas de movilidad reducida",
+            "Servicio de habitaciones",
+            "Bar",
+            "Muy buen desayuno"
+        ],
+        "mascotas": "Información no disponible",
+        "descripcion": "Este hotel moderno de 4 estrellas está situado en un área comercial y de ocio, a solo 25 minutos a pie del centro, en una zona ideal para explorar la bonita ciudad y los alrededores.\n\nEl Sercotel Gran Fama presenta un interior cuidado, elegante, sencillo y atractivo. Además, proporciona WiFi gratuita.\n\nEl restaurante del Sercotel Gran Fama elabora deliciosos platos durante la cena. El establecimiento también dispone de bar.\n\nEl hotel Gran Fama es un alojamiento perfecto para las estancias de negocios y está bien comunicado por carretera con un centro de negocios.",
+        "opinion": 8.5,
+        "comentarios": 1,
+        "fechaEntrada": "2025-05-16",
+        "fechaSalida": "2025-05-17",
+        "precio": 74
+    },
+    {
+        "url": "https://www.booking.com/hotel/es/elbaalmeria.es.html",
+        "id": "elbaalmeria",
+        "nombre": "Elba Almeria Business & Convention Hotel",
+        "marca": "Hoteles Elba",
+        "localidad": "Prolongación Avenida del Mediterraneo s/n, 04009 Almería, España",
+        "coordenadas": {
+            "latitud": 36.855547825446784,
+            "longitud": -2.445472031877216
+        },
+        "servicios": [
+            "Parking privado",
+            "WiFi gratis",
+            "Habitaciones familiares",
+            "2 restaurantes",
+            "Habitaciones sin humo",
+            "Adaptado personas de movilidad reducida",
+            "Servicio de habitaciones",
+            "Bar",
+            "Muy buen desayuno"
+        ],
+        "mascotas": "Información no disponible",
+        "descripcion": "El Elba Almería es un hotel moderno y está situado enfrente del centro comercial Mediterráneo, en Almería. Las habitaciones presentan una buena relación calidad precio y cuentan con aire acondicionado, WiFi gratuita y TV vía satélite.\n\nEl Entresabores, el luminoso restaurante del hotel, sirve cocina mediterránea tradicional y algunos platos típicos de Almería. El establecimiento también cuenta con una carta de vinos variada.\n\nEl Elba Almería Business &Convention Hotel proporciona aparcamiento privado y recepción las 24 horas.\n\nAdemás, está a 10 minutos en coche del centro histórico de Almería, que alberga la catedral de la ciudad. La playa del Zapillo y el aeropuerto de Almería se hallan a 10 minutos en coche.",
+        "opinion": 8.7,
+        "comentarios": 4,
+        "fechaEntrada": "2025-05-16",
+        "fechaSalida": "2025-05-17",
+        "precio": 85
+    }
+]
