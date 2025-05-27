@@ -1,0 +1,59 @@
+version: "3.8"
+
+services:
+  webscp:
+    # build:                                  # Swarm ignora build
+      # context: .                            # Swarm ignora build
+      # dockerfile: Dockerfile                # Swarm ignora build
+    image: proyecto-vm1:5000/webscp:latest    # Nombre de imagen en Registry
+    deploy:
+      replicas: 1
+      placement:
+        max_replicas_per_node: 1
+        constraints:
+          - node.role == manager
+          - node.hostname == proyecto-vm1   # Forzar al nodo donde está la imagen
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 120s
+      update_config:
+        parallelism: 1
+        delay: 10s
+        failure_action: rollback
+        monitor: 60s
+        max_failure_ratio: 0.3
+      rollback_config:
+        parallelism: 1
+        delay: 10s
+        failure_action: pause
+        monitor: 60s
+        max_failure_ratio: 0.3
+    volumes:
+      # Usar el filesystem compartido NFS
+      - "/elk-share/webscp/out:/data/out"
+    environment:
+      - TZ=${TZONA:-Europe/Madrid}
+      # - NODE_ID={{.Node.ID}}
+      # - NODE_HOSTNAME={{.Node.Hostname}}
+      # - SERVICE_NAME={{.Service.Name}}
+      # - TASK_ID={{.Task.ID}}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os; exit(0 if os.path.exists('/data/out') else 1)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - webscp-net
+    # logging:
+      # driver: "json-file"
+      # options:
+        # max-size: "10m"
+        # max-file: "3"
+
+networks:
+  webscp-net:
+    driver: overlay
+    attachable: true
