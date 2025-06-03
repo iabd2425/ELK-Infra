@@ -1,0 +1,120 @@
+250527.ndjson
+2025-05-27 22:44:55,401 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-05-28
+2025-05-27 22:44:55,861 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-05-28...
+2025-05-27 22:44:57,645 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:46:16,771 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-05-28. Guardado en /data/out/huelva_20250528.ndjson
+2025-05-27 22:46:16,771 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-05-29
+2025-05-27 22:46:17,169 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-05-29...
+2025-05-27 22:46:19,013 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:47:37,863 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-05-29. Guardado en /data/out/huelva_20250529.ndjson
+2025-05-27 22:47:37,864 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-05-30
+2025-05-27 22:47:38,347 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-05-30...
+2025-05-27 22:47:39,876 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:48:49,172 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-05-30. Guardado en /data/out/huelva_20250530.ndjson
+2025-05-27 22:48:49,172 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-05-31
+2025-05-27 22:48:49,541 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-05-31...
+2025-05-27 22:48:51,118 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:49:59,191 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-05-31. Guardado en /data/out/huelva_20250531.ndjson
+2025-05-27 22:49:59,191 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-01
+2025-05-27 22:49:59,585 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-01...
+2025-05-27 22:50:01,184 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:51:30,771 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-01. Guardado en /data/out/huelva_20250601.ndjson
+2025-05-27 22:51:30,771 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-02
+2025-05-27 22:51:31,147 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-02...
+2025-05-27 22:51:32,915 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:52:55,858 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-02. Guardado en /data/out/huelva_20250602.ndjson
+2025-05-27 22:52:55,858 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-03
+2025-05-27 22:52:56,192 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-03...
+2025-05-27 22:52:57,886 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:54:19,072 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-03. Guardado en /data/out/huelva_20250603.ndjson
+2025-05-27 22:54:19,072 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-04
+2025-05-27 22:54:19,411 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-04...
+2025-05-27 22:54:21,044 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:55:46,478 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-04. Guardado en /data/out/huelva_20250604.ndjson
+2025-05-27 22:55:46,479 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-05
+2025-05-27 22:55:46,901 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-05...
+2025-05-27 22:55:48,539 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:57:09,857 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-05. Guardado en /data/out/huelva_20250605.ndjson
+2025-05-27 22:57:09,857 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-06
+2025-05-27 22:57:10,230 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-06...
+2025-05-27 22:57:11,793 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:58:34,846 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-06. Guardado en /data/out/huelva_20250606.ndjson
+2025-05-27 22:58:34,846 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-07
+2025-05-27 22:58:35,241 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-07...
+2025-05-27 22:58:36,804 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:59:47,206 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-07. Guardado en /data/out/huelva_20250607.ndjson
+2025-05-27 22:59:47,206 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-08
+2025-05-27 22:59:47,697 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-08...
+2025-05-27 22:59:49,165 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:01:11,862 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-08. Guardado en /data/out/huelva_20250608.ndjson
+2025-05-27 23:01:11,862 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-09
+2025-05-27 23:01:12,190 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-09...
+2025-05-27 23:01:14,052 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:02:27,550 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-09. Guardado en /data/out/huelva_20250609.ndjson
+2025-05-27 23:02:27,550 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-10
+2025-05-27 23:02:28,036 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-10...
+2025-05-27 23:02:29,567 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:03:46,732 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-10. Guardado en /data/out/huelva_20250610.ndjson
+2025-05-27 23:03:46,732 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-11
+2025-05-27 23:03:47,155 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-11...
+2025-05-27 23:03:48,717 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:05:03,890 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-11. Guardado en /data/out/huelva_20250611.ndjson
+2025-05-27 23:05:03,890 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-12
+2025-05-27 23:05:04,360 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-12...
+2025-05-27 23:05:06,729 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:06:29,217 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-12. Guardado en /data/out/huelva_20250612.ndjson
+2025-05-27 23:06:29,217 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-13
+2025-05-27 23:06:29,578 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-13...
+2025-05-27 23:06:31,464 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:07:44,411 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-13. Guardado en /data/out/huelva_20250613.ndjson
+2025-05-27 23:07:44,411 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-14
+2025-05-27 23:07:44,799 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-14...
+2025-05-27 23:07:46,472 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:08:55,731 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-14. Guardado en /data/out/huelva_20250614.ndjson
+2025-05-27 23:08:55,731 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-15
+2025-05-27 23:08:56,074 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-15...
+2025-05-27 23:08:57,655 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:10:26,709 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-15. Guardado en /data/out/huelva_20250615.ndjson
+2025-05-27 23:10:26,709 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-16
+2025-05-27 23:10:27,196 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-16...
+2025-05-27 23:10:29,086 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:11:48,827 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-16. Guardado en /data/out/huelva_20250616.ndjson
+2025-05-27 23:11:48,827 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-17
+2025-05-27 23:11:49,289 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-17...
+2025-05-27 23:11:50,940 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:13:12,043 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-17. Guardado en /data/out/huelva_20250617.ndjson
+2025-05-27 23:13:12,043 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-18
+2025-05-27 23:13:12,416 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-18...
+2025-05-27 23:13:14,256 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:14:30,001 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-18. Guardado en /data/out/huelva_20250618.ndjson
+2025-05-27 23:14:30,001 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-19
+2025-05-27 23:14:30,487 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-19...
+2025-05-27 23:14:32,040 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:15:48,374 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-19. Guardado en /data/out/huelva_20250619.ndjson
+2025-05-27 23:15:48,374 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-20
+2025-05-27 23:15:48,829 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-20...
+2025-05-27 23:15:50,297 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:17:01,288 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-20. Guardado en /data/out/huelva_20250620.ndjson
+2025-05-27 23:17:01,288 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-21
+2025-05-27 23:17:01,659 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-21...
+2025-05-27 23:17:03,328 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:18:09,201 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-21. Guardado en /data/out/huelva_20250621.ndjson
+2025-05-27 23:18:09,201 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-22
+2025-05-27 23:18:09,684 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-22...
+2025-05-27 23:18:11,427 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:19:26,319 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-22. Guardado en /data/out/huelva_20250622.ndjson
+2025-05-27 23:19:26,319 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-23
+2025-05-27 23:19:26,709 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-23...
+2025-05-27 23:19:28,206 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:20:46,144 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-23. Guardado en /data/out/huelva_20250623.ndjson
+2025-05-27 23:20:46,144 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-24
+2025-05-27 23:20:46,553 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-24...
+2025-05-27 23:20:47,972 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:22:00,572 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-24. Guardado en /data/out/huelva_20250624.ndjson
+2025-05-27 23:22:00,572 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-06-25
+2025-05-27 23:22:00,983 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-06-25...
+2025-05-27 23:22:02,389 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 23:23:17,813 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-06-25. Guardado en /data/out/huelva_20250625.ndjson
+2025-05-27 23:23:17,814 - SCRAPER - INFO - Iniciando scraping para Cordoba para el 2025-05-27
+2025-05-27 23:23:18,287 - SCRAPER - INFO - Obteniendo resultados de dest_id 750 (Cordoba) el 2025-05-27...
+2025-05-27 23:23:19,820 - SCRAPER - INFO - Encontrados 25 hotele

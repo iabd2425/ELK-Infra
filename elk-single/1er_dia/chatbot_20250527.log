@@ -1,0 +1,500 @@
+2025-05-27 19:33:26,671 - SCRAPER - INFO - Inicio de scraper booking.
+2025-05-27 19:33:26,671 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-05-27
+2025-05-27 19:33:26,972 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-05-27...
+2025-05-27 19:33:28,569 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:34:42,361 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-05-27. Guardado en /data/out/almería_20250527.ndjson
+2025-05-27 19:34:42,362 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-05-28
+2025-05-27 19:34:42,746 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-05-28...
+2025-05-27 19:34:44,534 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:35:49,986 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/best-mojacar.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuAKy79fBBsACAdICJDVmYTJjOGZjLTFiNGYtNGU4Ny1hOGRjLTAxNmY3YmQyODAyZtgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-28&checkout=2025-05-29&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=23&hapos=23&sr_order=popularity&nflt=ht_id%3D204&srpvid=ed217b99f2120f5e&srepoch=1748367284&all_sr_blocks=1244107_0_2_0_0&highlighted_blocks=1244107_0_2_0_0&matching_block_id=1244107_0_2_0_0&sr_pri_blocks=1244107_0_2_0_0__6828&from_sustainable_property_sr=1&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/best-mojacar.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuAKy79fBBsACAdICJDVmYTJjOGZjLTFiNGYtNGU4Ny1hOGRjLTAxNmY3YmQyODAyZtgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-28&checkout=2025-05-29&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=23&hapos=23&sr_order=popularity&nflt=ht_id%3D204&srpvid=ed217b99f2120f5e&srepoch=1748367284&all_sr_blocks=1244107_0_2_0_0&highlighted_blocks=1244107_0_2_0_0&matching_block_id=1244107_0_2_0_0&sr_pri_blocks=1244107_0_2_0_0__6828&from_sustainable_property_sr=1&from=searchresults
+2025-05-27 19:35:52,122 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/alegria-palacio-mojacar-adults-only.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuAKy79fBBsACAdICJDVmYTJjOGZjLTFiNGYtNGU4Ny1hOGRjLTAxNmY3YmQyODAyZtgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-28&checkout=2025-05-29&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=24&hapos=24&sr_order=popularity&nflt=ht_id%3D204&srpvid=ed217b99f2120f5e&srepoch=1748367284&all_sr_blocks=139678601_360452807_0_42_0&highlighted_blocks=139678601_360452807_0_42_0&matching_block_id=139678601_360452807_0_42_0&sr_pri_blocks=139678601_360452807_0_42_0__10500&from_sustainable_property_sr=1&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/alegria-palacio-mojacar-adults-only.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuAKy79fBBsACAdICJDVmYTJjOGZjLTFiNGYtNGU4Ny1hOGRjLTAxNmY3YmQyODAyZtgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-28&checkout=2025-05-29&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=24&hapos=24&sr_order=popularity&nflt=ht_id%3D204&srpvid=ed217b99f2120f5e&srepoch=1748367284&all_sr_blocks=139678601_360452807_0_42_0&highlighted_blocks=139678601_360452807_0_42_0&matching_block_id=139678601_360452807_0_42_0&sr_pri_blocks=139678601_360452807_0_42_0__10500&from_sustainable_property_sr=1&from=searchresults
+2025-05-27 19:35:55,426 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-05-28. Guardado en /data/out/almería_20250528.ndjson
+2025-05-27 19:35:55,426 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-05-29
+2025-05-27 19:35:55,808 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-05-29...
+2025-05-27 19:35:57,938 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:35:59,814 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/torreluz-senior.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=27918501_409284375_2_2_0&highlighted_blocks=27918501_409284375_2_2_0&matching_block_id=27918501_409284375_2_2_0&sr_pri_blocks=27918501_409284375_2_2_0__6500&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/torreluz-senior.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=27918501_409284375_2_2_0&highlighted_blocks=27918501_409284375_2_2_0&matching_block_id=27918501_409284375_2_2_0&sr_pri_blocks=27918501_409284375_2_2_0__6500&from=searchresults
+2025-05-27 19:36:01,620 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/alua-golf-trinidad.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=46972044_295756033_2_41_0&highlighted_blocks=46972044_295756033_2_41_0&matching_block_id=46972044_295756033_2_41_0&sr_pri_blocks=46972044_295756033_2_41_0__7400&from_sustainable_property_sr=1&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/alua-golf-trinidad.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=46972044_295756033_2_41_0&highlighted_blocks=46972044_295756033_2_41_0&matching_block_id=46972044_295756033_2_41_0&sr_pri_blocks=46972044_295756033_2_41_0__7400&from_sustainable_property_sr=1&from=searchresults
+2025-05-27 19:36:09,117 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/elbaalmeria.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=9123711_335653998_0_2_0&highlighted_blocks=9123711_335653998_0_2_0&matching_block_id=9123711_335653998_0_2_0&sr_pri_blocks=9123711_335653998_0_2_0__8500&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/elbaalmeria.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=9123711_335653998_0_2_0&highlighted_blocks=9123711_335653998_0_2_0&matching_block_id=9123711_335653998_0_2_0&sr_pri_blocks=9123711_335653998_0_2_0__8500&from=searchresults
+2025-05-27 19:36:35,753 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/laperla.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=13&hapos=13&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=9095603_408708860_0_1_0&highlighted_blocks=9095603_408708860_0_1_0&matching_block_id=9095603_408708860_0_1_0&sr_pri_blocks=9095603_408708860_0_1_0__7600&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/laperla.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=13&hapos=13&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=9095603_408708860_0_1_0&highlighted_blocks=9095603_408708860_0_1_0&matching_block_id=9095603_408708860_0_1_0&sr_pri_blocks=9095603_408708860_0_1_0__7600&from=searchresults
+2025-05-27 19:36:40,600 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/portomagno-by-alegria.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=15&hapos=15&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=1672907_406576347_0_42_0&highlighted_blocks=1672907_406576347_0_42_0&matching_block_id=1672907_406576347_0_42_0&sr_pri_blocks=1672907_406576347_0_42_0__7900&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/portomagno-by-alegria.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEXyAEM2AEB6AEB-AEDiAIBqAIDuAL779fBBsACAdICJDRkMGEyZjVhLTAzM2ItNDlmYi1hNjQ2LTRjOTY2NGVmOTRkNdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-29&checkout=2025-05-30&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=15&hapos=15&sr_order=popularity&nflt=ht_id%3D204&srpvid=dd987bbdb2ed0755&srepoch=1748367357&all_sr_blocks=1672907_406576347_0_42_0&highlighted_blocks=1672907_406576347_0_42_0&matching_block_id=1672907_406576347_0_42_0&sr_pri_blocks=1672907_406576347_0_42_0__7900&from=searchresults
+2025-05-27 19:37:16,911 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-05-29. Guardado en /data/out/almería_20250529.ndjson
+2025-05-27 19:37:16,911 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-05-30
+2025-05-27 19:37:17,281 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-05-30...
+2025-05-27 19:37:19,697 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:37:40,553 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/carboneras-cabo-de-gata-carboneras1.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=829913601_347630860_0_2_0&highlighted_blocks=829913601_347630860_0_2_0&matching_block_id=829913601_347630860_0_2_0&sr_pri_blocks=829913601_347630860_0_2_0__9196&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/carboneras-cabo-de-gata-carboneras1.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=7&hapos=7&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=829913601_347630860_0_2_0&highlighted_blocks=829913601_347630860_0_2_0&matching_block_id=829913601_347630860_0_2_0&sr_pri_blocks=829913601_347630860_0_2_0__9196&from=searchresults
+2025-05-27 19:38:04,980 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/alegria-palacio-mojacar-adults-only.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=14&hapos=14&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=139678601_360452807_0_42_0&highlighted_blocks=139678601_360452807_0_42_0&matching_block_id=139678601_360452807_0_42_0&sr_pri_blocks=139678601_360452807_0_42_0__10500&from_sustainable_property_sr=1&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/alegria-palacio-mojacar-adults-only.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=14&hapos=14&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=139678601_360452807_0_42_0&highlighted_blocks=139678601_360452807_0_42_0&matching_block_id=139678601_360452807_0_42_0&sr_pri_blocks=139678601_360452807_0_42_0__10500&from_sustainable_property_sr=1&from=searchresults
+2025-05-27 19:38:26,539 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/rural-restaurante-los-olivos.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=20&hapos=20&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=1086972003_409132474_2_0_0&highlighted_blocks=1086972003_409132474_2_0_0&matching_block_id=1086972003_409132474_2_0_0&sr_pri_blocks=1086972003_409132474_2_0_0__4500&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/rural-restaurante-los-olivos.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=20&hapos=20&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=1086972003_409132474_2_0_0&highlighted_blocks=1086972003_409132474_2_0_0&matching_block_id=1086972003_409132474_2_0_0&sr_pri_blocks=1086972003_409132474_2_0_0__4500&from=searchresults
+2025-05-27 19:38:31,880 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/best-sabinal.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=9438430_0_2_0_0&highlighted_blocks=9438430_0_2_0_0&matching_block_id=9438430_0_2_0_0&sr_pri_blocks=9438430_0_2_0_0__11357&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/best-sabinal.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=9438430_0_2_0_0&highlighted_blocks=9438430_0_2_0_0&matching_block_id=9438430_0_2_0_0&sr_pri_blocks=9438430_0_2_0_0__11357&from=searchresults
+2025-05-27 19:38:35,573 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/la-parrilla.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=23&hapos=23&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=146837403_284982833_2_2_0&highlighted_blocks=146837403_284982833_2_2_0&matching_block_id=146837403_284982833_2_2_0&sr_pri_blocks=146837403_284982833_2_2_0__8000&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/la-parrilla.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=23&hapos=23&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=146837403_284982833_2_2_0&highlighted_blocks=146837403_284982833_2_2_0&matching_block_id=146837403_284982833_2_2_0&sr_pri_blocks=146837403_284982833_2_2_0__8000&from=searchresults
+2025-05-27 19:38:43,091 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/casa-en-cabo-de-gata.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=25&hapos=25&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=238806014_393611092_2_0_0&highlighted_blocks=238806014_393611092_2_0_0&matching_block_id=238806014_393611092_2_0_0&sr_pri_blocks=238806014_393611092_2_0_0__7500&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/casa-en-cabo-de-gata.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEZyAEM2AEB6AEB-AEDiAIBqAIDuALN8NfBBsACAdICJDg1MzE3MGZjLWExMTctNGI0Mi04NTAyLTRjZmUxOTA3N2IxOdgCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-30&checkout=2025-05-31&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=25&hapos=25&sr_order=popularity&nflt=ht_id%3D204&srpvid=6d717be6e914055d&srepoch=1748367439&all_sr_blocks=238806014_393611092_2_0_0&highlighted_blocks=238806014_393611092_2_0_0&matching_block_id=238806014_393611092_2_0_0&sr_pri_blocks=238806014_393611092_2_0_0__7500&from=searchresults
+2025-05-27 19:38:43,096 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-05-30. Guardado en /data/out/almería_20250530.ndjson
+2025-05-27 19:38:43,096 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-05-31
+2025-05-27 19:38:43,553 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-05-31...
+2025-05-27 19:38:46,424 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:38:57,895 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/granhotelalmeria.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEHyAEN2AEB6AEB-AEDiAIBqAIDuAKj8dfBBsACAdICJGEyZjg3OWUzLTEwZjctNDMzNi04MmIzLTc4MzhkODZjNDQ1M9gCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-31&checkout=2025-06-01&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&nflt=ht_id%3D204&srpvid=e86a7c1182f50c7a&srepoch=1748367526&from_sustainable_property_sr=1&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/granhotelalmeria.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEHyAEN2AEB6AEB-AEDiAIBqAIDuAKj8dfBBsACAdICJGEyZjg3OWUzLTEwZjctNDMzNi04MmIzLTc4MzhkODZjNDQ1M9gCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-31&checkout=2025-06-01&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=3&hapos=3&sr_order=popularity&nflt=ht_id%3D204&srpvid=e86a7c1182f50c7a&srepoch=1748367526&from_sustainable_property_sr=1&from=searchresults
+2025-05-27 19:39:00,831 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/husagranfamaalmeria.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEHyAEN2AEB6AEB-AEDiAIBqAIDuAKj8dfBBsACAdICJGEyZjg3OWUzLTEwZjctNDMzNi04MmIzLTc4MzhkODZjNDQ1M9gCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-31&checkout=2025-06-01&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&nflt=ht_id%3D204&srpvid=e86a7c1182f50c7a&srepoch=1748367526&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/husagranfamaalmeria.es.html?aid=304142&label=gen173nr-1FCAQoggJCC3JlZ2lvbl8xMzYzSDNYBGhGiAEBmAEKuAEHyAEN2AEB6AEB-AEDiAIBqAIDuAKj8dfBBsACAdICJGEyZjg3OWUzLTEwZjctNDMzNi04MmIzLTc4MzhkODZjNDQ1M9gCBeACAQ&ucfs=1&arphpl=1&checkin=2025-05-31&checkout=2025-06-01&dest_id=1363&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=4&hapos=4&sr_order=popularity&nflt=ht_id%3D204&srpvid=e86a7c1182f50c7a&srepoch=1748367526&from=searchresults
+2025-05-27 19:40:02,697 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-05-31. Guardado en /data/out/almería_20250531.ndjson
+2025-05-27 19:40:02,697 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-01
+2025-05-27 19:40:03,043 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-01...
+2025-05-27 19:40:05,132 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:41:25,116 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-01. Guardado en /data/out/almería_20250601.ndjson
+2025-05-27 19:41:25,116 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-02
+2025-05-27 19:41:25,616 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-02...
+2025-05-27 19:41:27,653 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:42:44,960 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-02. Guardado en /data/out/almería_20250602.ndjson
+2025-05-27 19:42:44,960 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-03
+2025-05-27 19:42:45,415 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-03...
+2025-05-27 19:42:46,933 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:44:05,368 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-03. Guardado en /data/out/almería_20250603.ndjson
+2025-05-27 19:44:05,368 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-04
+2025-05-27 19:44:05,855 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-04...
+2025-05-27 19:44:07,839 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:45:22,862 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-04. Guardado en /data/out/almería_20250604.ndjson
+2025-05-27 19:45:22,862 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-05
+2025-05-27 19:45:23,296 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-05...
+2025-05-27 19:45:25,066 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:46:43,907 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-05. Guardado en /data/out/almería_20250605.ndjson
+2025-05-27 19:46:43,907 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-06
+2025-05-27 19:46:44,266 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-06...
+2025-05-27 19:46:45,819 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:48:03,738 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-06. Guardado en /data/out/almería_20250606.ndjson
+2025-05-27 19:48:03,738 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-07
+2025-05-27 19:48:04,212 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-07...
+2025-05-27 19:48:06,209 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:49:16,411 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-07. Guardado en /data/out/almería_20250607.ndjson
+2025-05-27 19:49:16,411 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-08
+2025-05-27 19:49:16,892 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-08...
+2025-05-27 19:49:18,641 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:50:34,513 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-08. Guardado en /data/out/almería_20250608.ndjson
+2025-05-27 19:50:34,513 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-09
+2025-05-27 19:50:34,985 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-09...
+2025-05-27 19:50:36,728 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:51:51,416 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-09. Guardado en /data/out/almería_20250609.ndjson
+2025-05-27 19:51:51,416 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-10
+2025-05-27 19:51:51,746 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-10...
+2025-05-27 19:51:53,334 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:53:17,779 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-10. Guardado en /data/out/almería_20250610.ndjson
+2025-05-27 19:53:17,779 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-11
+2025-05-27 19:53:18,095 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-11...
+2025-05-27 19:53:19,710 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:54:44,599 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-11. Guardado en /data/out/almería_20250611.ndjson
+2025-05-27 19:54:44,600 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-12
+2025-05-27 19:54:44,910 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-12...
+2025-05-27 19:54:47,021 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:56:19,662 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-12. Guardado en /data/out/almería_20250612.ndjson
+2025-05-27 19:56:19,663 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-13
+2025-05-27 19:56:20,134 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-13...
+2025-05-27 19:56:21,807 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:57:42,695 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-13. Guardado en /data/out/almería_20250613.ndjson
+2025-05-27 19:57:42,696 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-14
+2025-05-27 19:57:43,023 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-14...
+2025-05-27 19:57:44,713 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:59:01,050 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-14. Guardado en /data/out/almería_20250614.ndjson
+2025-05-27 19:59:01,050 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-15
+2025-05-27 19:59:01,444 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-15...
+2025-05-27 19:59:04,047 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:00:28,372 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-15. Guardado en /data/out/almería_20250615.ndjson
+2025-05-27 20:00:28,373 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-16
+2025-05-27 20:00:28,782 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-16...
+2025-05-27 20:00:30,377 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:02:00,568 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-16. Guardado en /data/out/almería_20250616.ndjson
+2025-05-27 20:02:00,569 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-17
+2025-05-27 20:02:01,007 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-17...
+2025-05-27 20:02:02,887 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:03:24,018 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-17. Guardado en /data/out/almería_20250617.ndjson
+2025-05-27 20:03:24,018 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-18
+2025-05-27 20:03:24,514 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-18...
+2025-05-27 20:03:27,455 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:04:51,658 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-18. Guardado en /data/out/almería_20250618.ndjson
+2025-05-27 20:04:51,658 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-19
+2025-05-27 20:04:52,113 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-19...
+2025-05-27 20:04:53,752 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:06:13,316 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-19. Guardado en /data/out/almería_20250619.ndjson
+2025-05-27 20:06:13,316 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-20
+2025-05-27 20:06:13,668 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-20...
+2025-05-27 20:06:15,207 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:07:28,996 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-20. Guardado en /data/out/almería_20250620.ndjson
+2025-05-27 20:07:28,996 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-21
+2025-05-27 20:07:29,441 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-21...
+2025-05-27 20:07:31,009 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:08:42,779 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-21. Guardado en /data/out/almería_20250621.ndjson
+2025-05-27 20:08:42,779 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-22
+2025-05-27 20:08:43,172 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-22...
+2025-05-27 20:08:44,895 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:10:00,271 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-22. Guardado en /data/out/almería_20250622.ndjson
+2025-05-27 20:10:00,271 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-23
+2025-05-27 20:10:00,649 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-23...
+2025-05-27 20:10:02,149 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:11:12,262 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-23. Guardado en /data/out/almería_20250623.ndjson
+2025-05-27 20:11:12,262 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-24
+2025-05-27 20:11:12,675 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-24...
+2025-05-27 20:11:14,195 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:12:24,161 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-24. Guardado en /data/out/almería_20250624.ndjson
+2025-05-27 20:12:24,161 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-25
+2025-05-27 20:12:24,614 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-25...
+2025-05-27 20:12:26,407 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:13:37,682 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-25. Guardado en /data/out/almería_20250625.ndjson
+2025-05-27 20:13:37,682 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-27
+2025-05-27 20:13:38,105 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-27...
+2025-05-27 20:13:39,642 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:14:43,689 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-27. Guardado en /data/out/granada_20250527.ndjson
+2025-05-27 20:14:43,689 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-28
+2025-05-27 20:14:44,088 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-28...
+2025-05-27 20:14:45,674 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:15:52,709 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-28. Guardado en /data/out/granada_20250528.ndjson
+2025-05-27 20:15:52,709 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-29
+2025-05-27 20:15:53,038 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-29...
+2025-05-27 20:15:54,633 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:17:03,061 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-29. Guardado en /data/out/granada_20250529.ndjson
+2025-05-27 20:17:03,061 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-30
+2025-05-27 20:17:03,555 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-30...
+2025-05-27 20:17:05,281 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:18:11,635 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-30. Guardado en /data/out/granada_20250530.ndjson
+2025-05-27 20:18:11,635 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-31
+2025-05-27 20:18:12,048 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-31...
+2025-05-27 20:18:13,716 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:19:20,510 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-31. Guardado en /data/out/granada_20250531.ndjson
+2025-05-27 20:19:20,510 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-01
+2025-05-27 20:19:20,822 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-01...
+2025-05-27 20:19:22,444 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:20:39,728 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-01. Guardado en /data/out/granada_20250601.ndjson
+2025-05-27 20:20:39,728 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-02
+2025-05-27 20:20:40,048 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-02...
+2025-05-27 20:20:42,085 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:21:57,260 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-02. Guardado en /data/out/granada_20250602.ndjson
+2025-05-27 20:21:57,260 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-03
+2025-05-27 20:21:57,649 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-03...
+2025-05-27 20:21:59,416 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:23:16,074 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-03. Guardado en /data/out/granada_20250603.ndjson
+2025-05-27 20:23:16,074 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-04
+2025-05-27 20:23:16,495 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-04...
+2025-05-27 20:23:18,256 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:24:37,063 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-04. Guardado en /data/out/granada_20250604.ndjson
+2025-05-27 20:24:37,063 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-05
+2025-05-27 20:24:37,545 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-05...
+2025-05-27 20:24:39,285 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:25:55,870 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-05. Guardado en /data/out/granada_20250605.ndjson
+2025-05-27 20:25:55,870 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-06
+2025-05-27 20:25:56,302 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-06...
+2025-05-27 20:25:57,778 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:27:04,278 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-06. Guardado en /data/out/granada_20250606.ndjson
+2025-05-27 20:27:04,278 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-07
+2025-05-27 20:27:04,649 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-07...
+2025-05-27 20:27:06,243 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:28:16,657 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-07. Guardado en /data/out/granada_20250607.ndjson
+2025-05-27 20:28:16,657 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-08
+2025-05-27 20:28:17,141 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-08...
+2025-05-27 20:28:18,896 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:29:26,991 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-08. Guardado en /data/out/granada_20250608.ndjson
+2025-05-27 20:29:26,991 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-09
+2025-05-27 20:29:27,412 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-09...
+2025-05-27 20:29:29,146 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:30:41,756 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-09. Guardado en /data/out/granada_20250609.ndjson
+2025-05-27 20:30:41,756 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-10
+2025-05-27 20:30:42,263 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-10...
+2025-05-27 20:30:44,289 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:31:54,859 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-10. Guardado en /data/out/granada_20250610.ndjson
+2025-05-27 20:31:54,859 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-11
+2025-05-27 20:31:55,251 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-11...
+2025-05-27 20:31:57,077 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:33:00,154 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/conquista-de-granada.es.html?aid=304142&label=gen173nr-1FCAQoggJCCnJlZ2lvbl83NTVIM1gEaEaIAQGYAQq4ARfIAQzYAQHoAQH4AQOIAgGoAgO4ApuK2MEGwAIB0gIkNjRjNmMzM2MtMWFlZS00ZmE5LWJhOTEtZDc2NTRjMGRmNjM52AIF4AIB&ucfs=1&arphpl=1&checkin=2025-06-11&checkout=2025-06-12&dest_id=755&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=1585824d58d7050e&srepoch=1748370717&all_sr_blocks=1189507_200083114_0_34_0&highlighted_blocks=1189507_200083114_0_34_0&matching_block_id=1189507_200083114_0_34_0&sr_pri_blocks=1189507_200083114_0_34_0__6900&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/conquista-de-granada.es.html?aid=304142&label=gen173nr-1FCAQoggJCCnJlZ2lvbl83NTVIM1gEaEaIAQGYAQq4ARfIAQzYAQHoAQH4AQOIAgGoAgO4ApuK2MEGwAIB0gIkNjRjNmMzM2MtMWFlZS00ZmE5LWJhOTEtZDc2NTRjMGRmNjM52AIF4AIB&ucfs=1&arphpl=1&checkin=2025-06-11&checkout=2025-06-12&dest_id=755&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=1585824d58d7050e&srepoch=1748370717&all_sr_blocks=1189507_200083114_0_34_0&highlighted_blocks=1189507_200083114_0_34_0&matching_block_id=1189507_200083114_0_34_0&sr_pri_blocks=1189507_200083114_0_34_0__6900&from=searchresults
+2025-05-27 20:33:08,076 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-11. Guardado en /data/out/granada_20250611.ndjson
+2025-05-27 20:33:08,076 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-12
+2025-05-27 20:33:08,494 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-12...
+2025-05-27 20:33:10,326 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:34:23,556 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-12. Guardado en /data/out/granada_20250612.ndjson
+2025-05-27 20:34:23,556 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-13
+2025-05-27 20:34:23,991 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-13...
+2025-05-27 20:34:25,618 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:35:31,273 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-13. Guardado en /data/out/granada_20250613.ndjson
+2025-05-27 20:35:31,273 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-14
+2025-05-27 20:35:31,605 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-14...
+2025-05-27 20:35:33,362 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:36:29,816 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/la-casa-de-la-trinidad.es.html?aid=304142&label=gen173nr-1FCAQoggJCCnJlZ2lvbl83NTVIM1gEaEaIAQGYAQq4ARnIAQzYAQHoAQH4AQOIAgGoAgO4AvOL2MEGwAIB0gIkOGY3MWFlOWYtODljOS00ZTE2LTllNGUtMjNjNDJmYWMzM2Jm2AIF4AIB&ucfs=1&arphpl=1&checkin=2025-06-14&checkout=2025-06-15&dest_id=755&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=54b482b910fe0de5&srepoch=1748370933&all_sr_blocks=26460901_0_2_0_0&highlighted_blocks=26460901_0_2_0_0&matching_block_id=26460901_0_2_0_0&sr_pri_blocks=26460901_0_2_0_0__17251&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/la-casa-de-la-trinidad.es.html?aid=304142&label=gen173nr-1FCAQoggJCCnJlZ2lvbl83NTVIM1gEaEaIAQGYAQq4ARnIAQzYAQHoAQH4AQOIAgGoAgO4AvOL2MEGwAIB0gIkOGY3MWFlOWYtODljOS00ZTE2LTllNGUtMjNjNDJmYWMzM2Jm2AIF4AIB&ucfs=1&arphpl=1&checkin=2025-06-14&checkout=2025-06-15&dest_id=755&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=54b482b910fe0de5&srepoch=1748370933&all_sr_blocks=26460901_0_2_0_0&highlighted_blocks=26460901_0_2_0_0&matching_block_id=26460901_0_2_0_0&sr_pri_blocks=26460901_0_2_0_0__17251&from=searchresults
+2025-05-27 20:36:37,742 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-14. Guardado en /data/out/granada_20250614.ndjson
+2025-05-27 20:36:37,742 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-15
+2025-05-27 20:36:38,058 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-15...
+2025-05-27 20:36:39,996 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:37:50,523 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-15. Guardado en /data/out/granada_20250615.ndjson
+2025-05-27 20:37:50,523 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-16
+2025-05-27 20:37:50,867 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-16...
+2025-05-27 20:37:52,428 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:39:03,449 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-16. Guardado en /data/out/granada_20250616.ndjson
+2025-05-27 20:39:03,449 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-17
+2025-05-27 20:39:03,909 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-17...
+2025-05-27 20:39:05,617 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:40:17,879 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-17. Guardado en /data/out/granada_20250617.ndjson
+2025-05-27 20:40:17,879 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-18
+2025-05-27 20:40:18,313 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-18...
+2025-05-27 20:40:20,209 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:41:30,824 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-18. Guardado en /data/out/granada_20250618.ndjson
+2025-05-27 20:41:30,825 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-19
+2025-05-27 20:41:31,217 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-19...
+2025-05-27 20:41:33,036 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:42:45,633 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-19. Guardado en /data/out/granada_20250619.ndjson
+2025-05-27 20:42:45,633 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-20
+2025-05-27 20:42:45,972 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-20...
+2025-05-27 20:42:47,815 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:43:57,996 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-20. Guardado en /data/out/granada_20250620.ndjson
+2025-05-27 20:43:57,996 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-21
+2025-05-27 20:43:58,311 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-21...
+2025-05-27 20:44:00,194 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:45:09,276 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-21. Guardado en /data/out/granada_20250621.ndjson
+2025-05-27 20:45:09,276 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-22
+2025-05-27 20:45:09,773 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-22...
+2025-05-27 20:45:11,366 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:46:22,925 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-22. Guardado en /data/out/granada_20250622.ndjson
+2025-05-27 20:46:22,925 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-23
+2025-05-27 20:46:23,362 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-23...
+2025-05-27 20:46:24,867 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:47:38,816 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-23. Guardado en /data/out/granada_20250623.ndjson
+2025-05-27 20:47:38,816 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-24
+2025-05-27 20:47:39,137 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-24...
+2025-05-27 20:47:40,785 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:48:51,851 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-24. Guardado en /data/out/granada_20250624.ndjson
+2025-05-27 20:48:51,851 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-25
+2025-05-27 20:48:52,293 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-25...
+2025-05-27 20:48:53,923 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:50:03,296 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-25. Guardado en /data/out/granada_20250625.ndjson
+2025-05-27 20:50:03,296 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-05-27
+2025-05-27 20:50:03,792 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-05-27...
+2025-05-27 20:50:05,293 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:51:13,100 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-05-27. Guardado en /data/out/málaga_20250527.ndjson
+2025-05-27 20:51:13,100 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-05-28
+2025-05-27 20:51:13,612 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-05-28...
+2025-05-27 20:51:15,498 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:52:24,954 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-05-28. Guardado en /data/out/málaga_20250528.ndjson
+2025-05-27 20:52:24,954 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-05-29
+2025-05-27 20:52:25,451 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-05-29...
+2025-05-27 20:52:27,197 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:53:33,500 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-05-29. Guardado en /data/out/málaga_20250529.ndjson
+2025-05-27 20:53:33,500 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-05-30
+2025-05-27 20:53:33,977 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-05-30...
+2025-05-27 20:53:35,523 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:54:44,916 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-05-30. Guardado en /data/out/málaga_20250530.ndjson
+2025-05-27 20:54:44,916 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-05-31
+2025-05-27 20:54:45,365 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-05-31...
+2025-05-27 20:54:47,239 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:55:57,277 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-05-31. Guardado en /data/out/málaga_20250531.ndjson
+2025-05-27 20:55:57,277 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-01
+2025-05-27 20:55:57,668 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-01...
+2025-05-27 20:55:59,326 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:57:12,000 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-01. Guardado en /data/out/málaga_20250601.ndjson
+2025-05-27 20:57:12,000 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-02
+2025-05-27 20:57:12,409 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-02...
+2025-05-27 20:57:14,082 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:58:23,690 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-02. Guardado en /data/out/málaga_20250602.ndjson
+2025-05-27 20:58:23,690 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-03
+2025-05-27 20:58:24,168 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-03...
+2025-05-27 20:58:25,774 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:59:33,697 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-03. Guardado en /data/out/málaga_20250603.ndjson
+2025-05-27 20:59:33,697 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-04
+2025-05-27 20:59:34,022 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-04...
+2025-05-27 20:59:35,523 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:00:46,078 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-04. Guardado en /data/out/málaga_20250604.ndjson
+2025-05-27 21:00:46,078 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-05
+2025-05-27 21:00:46,388 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-05...
+2025-05-27 21:00:47,934 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:01:58,583 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-05. Guardado en /data/out/málaga_20250605.ndjson
+2025-05-27 21:01:58,583 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-06
+2025-05-27 21:01:59,027 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-06...
+2025-05-27 21:02:00,588 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:03:12,064 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-06. Guardado en /data/out/málaga_20250606.ndjson
+2025-05-27 21:03:12,064 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-07
+2025-05-27 21:03:12,536 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-07...
+2025-05-27 21:03:14,835 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:04:22,855 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-07. Guardado en /data/out/málaga_20250607.ndjson
+2025-05-27 21:04:22,855 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-08
+2025-05-27 21:04:23,210 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-08...
+2025-05-27 21:04:24,814 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:05:41,357 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-08. Guardado en /data/out/málaga_20250608.ndjson
+2025-05-27 21:05:41,357 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-09
+2025-05-27 21:05:41,680 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-09...
+2025-05-27 21:05:43,283 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:06:56,782 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-09. Guardado en /data/out/málaga_20250609.ndjson
+2025-05-27 21:06:56,782 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-10
+2025-05-27 21:06:57,089 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-10...
+2025-05-27 21:06:58,620 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:08:12,996 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-10. Guardado en /data/out/málaga_20250610.ndjson
+2025-05-27 21:08:12,996 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-11
+2025-05-27 21:08:13,328 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-11...
+2025-05-27 21:08:14,879 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:09:26,726 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-11. Guardado en /data/out/málaga_20250611.ndjson
+2025-05-27 21:09:26,727 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-12
+2025-05-27 21:09:27,126 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-12...
+2025-05-27 21:09:28,724 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:10:44,160 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-12. Guardado en /data/out/málaga_20250612.ndjson
+2025-05-27 21:10:44,160 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-13
+2025-05-27 21:10:44,599 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-13...
+2025-05-27 21:10:46,374 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:12:00,287 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-13. Guardado en /data/out/málaga_20250613.ndjson
+2025-05-27 21:12:00,287 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-14
+2025-05-27 21:12:00,678 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-14...
+2025-05-27 21:12:02,335 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:13:13,841 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-14. Guardado en /data/out/málaga_20250614.ndjson
+2025-05-27 21:13:13,841 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-15
+2025-05-27 21:13:14,169 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-15...
+2025-05-27 21:13:16,291 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:14:29,209 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-15. Guardado en /data/out/málaga_20250615.ndjson
+2025-05-27 21:14:29,209 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-16
+2025-05-27 21:14:29,566 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-16...
+2025-05-27 21:14:31,161 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:15:40,890 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-16. Guardado en /data/out/málaga_20250616.ndjson
+2025-05-27 21:15:40,890 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-17
+2025-05-27 21:15:41,387 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-17...
+2025-05-27 21:15:43,114 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:16:52,322 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-17. Guardado en /data/out/málaga_20250617.ndjson
+2025-05-27 21:16:52,322 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-18
+2025-05-27 21:16:52,806 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-18...
+2025-05-27 21:16:54,514 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:18:07,668 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-18. Guardado en /data/out/málaga_20250618.ndjson
+2025-05-27 21:18:07,668 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-19
+2025-05-27 21:18:07,989 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-19...
+2025-05-27 21:18:09,831 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:19:22,722 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-19. Guardado en /data/out/málaga_20250619.ndjson
+2025-05-27 21:19:22,722 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-20
+2025-05-27 21:19:23,086 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-20...
+2025-05-27 21:19:24,834 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:20:38,332 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-20. Guardado en /data/out/málaga_20250620.ndjson
+2025-05-27 21:20:38,332 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-21
+2025-05-27 21:20:38,848 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-21...
+2025-05-27 21:20:40,775 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:21:51,529 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-21. Guardado en /data/out/málaga_20250621.ndjson
+2025-05-27 21:21:51,529 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-22
+2025-05-27 21:21:51,848 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-22...
+2025-05-27 21:21:53,650 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:23:05,195 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-22. Guardado en /data/out/málaga_20250622.ndjson
+2025-05-27 21:23:05,196 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-23
+2025-05-27 21:23:05,676 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-23...
+2025-05-27 21:23:07,455 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:24:18,401 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-23. Guardado en /data/out/málaga_20250623.ndjson
+2025-05-27 21:24:18,401 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-24
+2025-05-27 21:24:18,710 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-24...
+2025-05-27 21:24:20,512 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:25:28,263 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-24. Guardado en /data/out/málaga_20250624.ndjson
+2025-05-27 21:25:28,263 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-06-25
+2025-05-27 21:25:28,664 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-06-25...
+2025-05-27 21:25:30,361 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 21:26:41,028 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-06-25. Guardado en /data/out/málaga_20250625.ndjson
+2025-05-27 21:26:41,028 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-05-27
+2025-05-27 21:26:41,487 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-05-27...
+2025-05-27 21:26:42,882 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:27:50,165 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-05-27. Guardado en /data/out/cadíz_20250527.ndjson
+2025-05-27 21:27:50,165 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-05-28
+2025-05-27 21:27:50,599 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-05-28...
+2025-05-27 21:27:52,274 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:29:04,464 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-05-28. Guardado en /data/out/cadíz_20250528.ndjson
+2025-05-27 21:29:04,464 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-05-29
+2025-05-27 21:29:04,796 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-05-29...
+2025-05-27 21:29:06,421 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:30:20,288 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-05-29. Guardado en /data/out/cadíz_20250529.ndjson
+2025-05-27 21:30:20,288 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-05-30
+2025-05-27 21:30:20,651 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-05-30...
+2025-05-27 21:30:22,771 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:31:37,409 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-05-30. Guardado en /data/out/cadíz_20250530.ndjson
+2025-05-27 21:31:37,409 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-05-31
+2025-05-27 21:31:37,734 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-05-31...
+2025-05-27 21:31:39,397 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:32:50,703 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-05-31. Guardado en /data/out/cadíz_20250531.ndjson
+2025-05-27 21:32:50,703 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-01
+2025-05-27 21:32:51,222 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-01...
+2025-05-27 21:32:52,890 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:34:05,873 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-01. Guardado en /data/out/cadíz_20250601.ndjson
+2025-05-27 21:34:05,873 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-02
+2025-05-27 21:34:06,192 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-02...
+2025-05-27 21:34:07,885 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:35:20,395 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-02. Guardado en /data/out/cadíz_20250602.ndjson
+2025-05-27 21:35:20,395 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-03
+2025-05-27 21:35:20,750 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-03...
+2025-05-27 21:35:22,271 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:36:34,670 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-03. Guardado en /data/out/cadíz_20250603.ndjson
+2025-05-27 21:36:34,670 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-04
+2025-05-27 21:36:35,260 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-04...
+2025-05-27 21:36:37,004 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:37:55,591 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-04. Guardado en /data/out/cadíz_20250604.ndjson
+2025-05-27 21:37:55,591 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-05
+2025-05-27 21:37:55,961 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-05...
+2025-05-27 21:37:57,620 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:39:15,834 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-05. Guardado en /data/out/cadíz_20250605.ndjson
+2025-05-27 21:39:15,834 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-06
+2025-05-27 21:39:16,279 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-06...
+2025-05-27 21:39:17,986 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:40:29,908 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-06. Guardado en /data/out/cadíz_20250606.ndjson
+2025-05-27 21:40:29,908 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-07
+2025-05-27 21:40:30,281 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-07...
+2025-05-27 21:40:32,109 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:41:41,019 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-07. Guardado en /data/out/cadíz_20250607.ndjson
+2025-05-27 21:41:41,019 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-08
+2025-05-27 21:41:41,453 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-08...
+2025-05-27 21:41:43,119 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:42:54,478 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-08. Guardado en /data/out/cadíz_20250608.ndjson
+2025-05-27 21:42:54,478 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-09
+2025-05-27 21:42:54,977 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-09...
+2025-05-27 21:42:56,629 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:44:09,989 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-09. Guardado en /data/out/cadíz_20250609.ndjson
+2025-05-27 21:44:09,989 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-10
+2025-05-27 21:44:10,391 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-10...
+2025-05-27 21:44:12,120 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:45:18,832 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-10. Guardado en /data/out/cadíz_20250610.ndjson
+2025-05-27 21:45:18,832 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-11
+2025-05-27 21:45:19,224 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-11...
+2025-05-27 21:45:20,967 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:46:31,979 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-11. Guardado en /data/out/cadíz_20250611.ndjson
+2025-05-27 21:46:31,979 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-12
+2025-05-27 21:46:32,334 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-12...
+2025-05-27 21:46:34,014 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:47:44,379 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-12. Guardado en /data/out/cadíz_20250612.ndjson
+2025-05-27 21:47:44,379 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-13
+2025-05-27 21:47:44,835 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-13...
+2025-05-27 21:47:46,452 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:49:02,510 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-13. Guardado en /data/out/cadíz_20250613.ndjson
+2025-05-27 21:49:02,510 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-14
+2025-05-27 21:49:03,009 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-14...
+2025-05-27 21:49:04,661 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:50:18,404 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-14. Guardado en /data/out/cadíz_20250614.ndjson
+2025-05-27 21:50:18,404 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-15
+2025-05-27 21:50:18,796 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-15...
+2025-05-27 21:50:20,579 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:51:38,724 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-15. Guardado en /data/out/cadíz_20250615.ndjson
+2025-05-27 21:51:38,724 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-16
+2025-05-27 21:51:39,045 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-16...
+2025-05-27 21:51:40,843 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:52:54,657 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-16. Guardado en /data/out/cadíz_20250616.ndjson
+2025-05-27 21:52:54,657 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-17
+2025-05-27 21:52:55,050 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-17...
+2025-05-27 21:52:56,771 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:54:08,516 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-17. Guardado en /data/out/cadíz_20250617.ndjson
+2025-05-27 21:54:08,516 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-18
+2025-05-27 21:54:08,934 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-18...
+2025-05-27 21:54:10,715 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:55:22,780 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-18. Guardado en /data/out/cadíz_20250618.ndjson
+2025-05-27 21:55:22,780 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-19
+2025-05-27 21:55:23,143 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-19...
+2025-05-27 21:55:24,876 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:56:35,401 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-19. Guardado en /data/out/cadíz_20250619.ndjson
+2025-05-27 21:56:35,401 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-20
+2025-05-27 21:56:35,795 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-20...
+2025-05-27 21:56:37,341 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:57:45,998 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-20. Guardado en /data/out/cadíz_20250620.ndjson
+2025-05-27 21:57:45,998 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-21
+2025-05-27 21:57:46,328 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-21...
+2025-05-27 21:57:47,988 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 21:59:02,820 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-21. Guardado en /data/out/cadíz_20250621.ndjson
+2025-05-27 21:59:02,820 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-22
+2025-05-27 21:59:03,144 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-22...
+2025-05-27 21:59:04,686 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 22:00:17,435 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-22. Guardado en /data/out/cadíz_20250622.ndjson
+2025-05-27 22:00:17,435 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-23
+2025-05-27 22:00:17,775 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-23...
+2025-05-27 22:00:19,446 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 22:01:29,667 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-23. Guardado en /data/out/cadíz_20250623.ndjson
+2025-05-27 22:01:29,667 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-24
+2025-05-27 22:01:30,100 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-24...
+2025-05-27 22:01:31,804 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 22:02:41,506 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-24. Guardado en /data/out/cadíz_20250624.ndjson
+2025-05-27 22:02:41,506 - SCRAPER - INFO - Iniciando scraping para Cadíz para el 2025-06-25
+2025-05-27 22:02:41,864 - SCRAPER - INFO - Obteniendo resultados de dest_id 747 (Cadíz) el 2025-06-25...
+2025-05-27 22:02:43,689 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Cadíz.
+2025-05-27 22:03:56,449 - SCRAPER - INFO - Fin de scraping para Cadíz para el 2025-06-25. Guardado en /data/out/cadíz_20250625.ndjson
+2025-05-27 22:03:56,450 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-05-27
+2025-05-27 22:03:56,932 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-05-27...

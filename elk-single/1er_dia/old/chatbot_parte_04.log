@@ -1,0 +1,95 @@
+- Fin de scraping para Granada para el 2025-06-05. Guardado en /data/out/granada_20250605.ndjson
+2025-05-27 20:25:55,870 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-06
+2025-05-27 20:25:56,302 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-06...
+2025-05-27 20:25:57,778 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:27:04,278 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-06. Guardado en /data/out/granada_20250606.ndjson
+2025-05-27 20:27:04,278 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-07
+2025-05-27 20:27:04,649 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-07...
+2025-05-27 20:27:06,243 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:28:16,657 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-07. Guardado en /data/out/granada_20250607.ndjson
+2025-05-27 20:28:16,657 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-08
+2025-05-27 20:28:17,141 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-08...
+2025-05-27 20:28:18,896 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:29:26,991 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-08. Guardado en /data/out/granada_20250608.ndjson
+2025-05-27 20:29:26,991 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-09
+2025-05-27 20:29:27,412 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-09...
+2025-05-27 20:29:29,146 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:30:41,756 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-09. Guardado en /data/out/granada_20250609.ndjson
+2025-05-27 20:30:41,756 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-10
+2025-05-27 20:30:42,263 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-10...
+2025-05-27 20:30:44,289 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:31:54,859 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-10. Guardado en /data/out/granada_20250610.ndjson
+2025-05-27 20:31:54,859 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-11
+2025-05-27 20:31:55,251 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-11...
+2025-05-27 20:31:57,077 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:33:00,154 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/conquista-de-granada.es.html?aid=304142&label=gen173nr-1FCAQoggJCCnJlZ2lvbl83NTVIM1gEaEaIAQGYAQq4ARfIAQzYAQHoAQH4AQOIAgGoAgO4ApuK2MEGwAIB0gIkNjRjNmMzM2MtMWFlZS00ZmE5LWJhOTEtZDc2NTRjMGRmNjM52AIF4AIB&ucfs=1&arphpl=1&checkin=2025-06-11&checkout=2025-06-12&dest_id=755&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=1585824d58d7050e&srepoch=1748370717&all_sr_blocks=1189507_200083114_0_34_0&highlighted_blocks=1189507_200083114_0_34_0&matching_block_id=1189507_200083114_0_34_0&sr_pri_blocks=1189507_200083114_0_34_0__6900&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/conquista-de-granada.es.html?aid=304142&label=gen173nr-1FCAQoggJCCnJlZ2lvbl83NTVIM1gEaEaIAQGYAQq4ARfIAQzYAQHoAQH4AQOIAgGoAgO4ApuK2MEGwAIB0gIkNjRjNmMzM2MtMWFlZS00ZmE5LWJhOTEtZDc2NTRjMGRmNjM52AIF4AIB&ucfs=1&arphpl=1&checkin=2025-06-11&checkout=2025-06-12&dest_id=755&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=1585824d58d7050e&srepoch=1748370717&all_sr_blocks=1189507_200083114_0_34_0&highlighted_blocks=1189507_200083114_0_34_0&matching_block_id=1189507_200083114_0_34_0&sr_pri_blocks=1189507_200083114_0_34_0__6900&from=searchresults
+2025-05-27 20:33:08,076 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-11. Guardado en /data/out/granada_20250611.ndjson
+2025-05-27 20:33:08,076 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-12
+2025-05-27 20:33:08,494 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-12...
+2025-05-27 20:33:10,326 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:34:23,556 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-12. Guardado en /data/out/granada_20250612.ndjson
+2025-05-27 20:34:23,556 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-13
+2025-05-27 20:34:23,991 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-13...
+2025-05-27 20:34:25,618 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:35:31,273 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-13. Guardado en /data/out/granada_20250613.ndjson
+2025-05-27 20:35:31,273 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-14
+2025-05-27 20:35:31,605 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-14...
+2025-05-27 20:35:33,362 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:36:29,816 - SCRAPER - ERROR - Error al obtener la página del hotel https://www.booking.com/hotel/es/la-casa-de-la-trinidad.es.html?aid=304142&label=gen173nr-1FCAQoggJCCnJlZ2lvbl83NTVIM1gEaEaIAQGYAQq4ARnIAQzYAQHoAQH4AQOIAgGoAgO4AvOL2MEGwAIB0gIkOGY3MWFlOWYtODljOS00ZTE2LTllNGUtMjNjNDJmYWMzM2Jm2AIF4AIB&ucfs=1&arphpl=1&checkin=2025-06-14&checkout=2025-06-15&dest_id=755&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=54b482b910fe0de5&srepoch=1748370933&all_sr_blocks=26460901_0_2_0_0&highlighted_blocks=26460901_0_2_0_0&matching_block_id=26460901_0_2_0_0&sr_pri_blocks=26460901_0_2_0_0__17251&from=searchresults: 500 Server Error: Internal Server Error for url: https://www.booking.com/hotel/es/la-casa-de-la-trinidad.es.html?aid=304142&label=gen173nr-1FCAQoggJCCnJlZ2lvbl83NTVIM1gEaEaIAQGYAQq4ARnIAQzYAQHoAQH4AQOIAgGoAgO4AvOL2MEGwAIB0gIkOGY3MWFlOWYtODljOS00ZTE2LTllNGUtMjNjNDJmYWMzM2Jm2AIF4AIB&ucfs=1&arphpl=1&checkin=2025-06-14&checkout=2025-06-15&dest_id=755&dest_type=region&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=22&hapos=22&sr_order=popularity&nflt=ht_id%3D204&srpvid=54b482b910fe0de5&srepoch=1748370933&all_sr_blocks=26460901_0_2_0_0&highlighted_blocks=26460901_0_2_0_0&matching_block_id=26460901_0_2_0_0&sr_pri_blocks=26460901_0_2_0_0__17251&from=searchresults
+2025-05-27 20:36:37,742 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-14. Guardado en /data/out/granada_20250614.ndjson
+2025-05-27 20:36:37,742 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-15
+2025-05-27 20:36:38,058 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-15...
+2025-05-27 20:36:39,996 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:37:50,523 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-15. Guardado en /data/out/granada_20250615.ndjson
+2025-05-27 20:37:50,523 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-16
+2025-05-27 20:37:50,867 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-16...
+2025-05-27 20:37:52,428 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:39:03,449 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-16. Guardado en /data/out/granada_20250616.ndjson
+2025-05-27 20:39:03,449 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-17
+2025-05-27 20:39:03,909 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-17...
+2025-05-27 20:39:05,617 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:40:17,879 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-17. Guardado en /data/out/granada_20250617.ndjson
+2025-05-27 20:40:17,879 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-18
+2025-05-27 20:40:18,313 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-18...
+2025-05-27 20:40:20,209 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:41:30,824 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-18. Guardado en /data/out/granada_20250618.ndjson
+2025-05-27 20:41:30,825 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-19
+2025-05-27 20:41:31,217 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-19...
+2025-05-27 20:41:33,036 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:42:45,633 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-19. Guardado en /data/out/granada_20250619.ndjson
+2025-05-27 20:42:45,633 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-20
+2025-05-27 20:42:45,972 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-20...
+2025-05-27 20:42:47,815 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:43:57,996 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-20. Guardado en /data/out/granada_20250620.ndjson
+2025-05-27 20:43:57,996 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-21
+2025-05-27 20:43:58,311 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-21...
+2025-05-27 20:44:00,194 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:45:09,276 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-21. Guardado en /data/out/granada_20250621.ndjson
+2025-05-27 20:45:09,276 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-22
+2025-05-27 20:45:09,773 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-22...
+2025-05-27 20:45:11,366 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:46:22,925 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-22. Guardado en /data/out/granada_20250622.ndjson
+2025-05-27 20:46:22,925 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-23
+2025-05-27 20:46:23,362 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-23...
+2025-05-27 20:46:24,867 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:47:38,816 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-23. Guardado en /data/out/granada_20250623.ndjson
+2025-05-27 20:47:38,816 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-24
+2025-05-27 20:47:39,137 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-24...
+2025-05-27 20:47:40,785 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:48:51,851 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-24. Guardado en /data/out/granada_20250624.ndjson
+2025-05-27 20:48:51,851 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-25
+2025-05-27 20:48:52,293 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-25...
+2025-05-27 20:48:53,923 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:50:03,296 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-25. Guardado en /data/out/granada_20250625.ndjson
+2025-05-27 20:50:03,296 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-05-27
+2025-05-27 20:50:03,792 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-05-27...
+2025-05-27 20:50:05,293 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:51:13,100 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-05-27. Guardado en /data/out/málaga_20250527.ndjson
+2025-05-27 20:51:13,100 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-05-28
+2025-05-27 20:51:13,612 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-05-28...
+2025-05-27 20:51:15,498 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:52:24,954 - SCRAPER - INFO - Fin de scraping para Málaga para el 2025-05-28. Guardado en /data/out/málaga_20250528.ndjson
+2025-05-27 20:52:24,954 - SCRAPER - INFO - Iniciando scraping para Málaga para el 2025-05-29
+2025-05-27 20:52:25,451 - SCRAPER - INFO - Obteniendo resultados de dest_id 766 (Málaga) el 2025-05-29...
+2025-05-27 20:52:27,197 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Málaga.
+2025-05-27 20:53:33,500 -

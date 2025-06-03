@@ -1,26 +1,40 @@
 filebeat.inputs:
-- type: filestream
-  id: default-filestream
-  paths:
-    - ingest_data/*.log
+  # - type: filestream
+    # id: logs
+    # enabled: true
+    # paths:
+      # - /var/lib/docker/containers/*/*.log
+    # parsers:
+      # - container: ~
+    # tags: ["logs"]
 
-filebeat.autodiscover:
-  providers:
-    - type: docker
-      hints.enabled: true
-
-processors:
-- add_docker_metadata: ~
-
-setup.kibana:
-  host: ${KIBANA_HOSTS}
-  username: ${ELASTIC_USER}
-  password: ${ELASTIC_PASSWORD} 
-
-output.elasticsearch:
-  hosts: ${ELASTIC_HOSTS}
-  username: ${ELASTIC_USER}
-  password: ${ELASTIC_PASSWORD}
-  ssl:
+  - type: filestream
+    id: json-files
     enabled: true
-    certificate_authorities: ${CA_CERT}
+    paths:
+      - /usr/share/filebeat/ingest_data/*.ndjson
+    close_inactive: 2m
+    tags: ["json-files"]
+    parsers:
+      - ndjson:
+          keys_under_root: true
+
+  - type: filestream
+    id: scraper-logs
+    enabled: true
+    paths:
+      - /usr/share/filebeat/ingest_data/scraper*.log
+    parsers:
+    tags: ["scraper"]
+
+  - type: filestream
+    id: chatbot-logs
+    enabled: true
+    paths:
+      - /usr/share/filebeat/ingest_data/chatbot*.log
+    parsers:
+    tags: ["chatbot"]
+
+
+output.logstash:
+  hosts: ["${LOGSTASH_HOSTS}"]

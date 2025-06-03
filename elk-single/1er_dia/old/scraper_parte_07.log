@@ -1,0 +1,118 @@
+da de Sevilla.
+2025-05-27 22:06:19,890 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-05-28. Guardado en /data/out/sevilla_20250528.ndjson
+2025-05-27 22:06:19,890 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-05-29
+2025-05-27 22:06:20,381 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-05-29...
+2025-05-27 22:06:22,144 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:07:33,059 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-05-29. Guardado en /data/out/sevilla_20250529.ndjson
+2025-05-27 22:07:33,059 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-05-30
+2025-05-27 22:07:33,470 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-05-30...
+2025-05-27 22:07:35,520 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:08:48,221 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-05-30. Guardado en /data/out/sevilla_20250530.ndjson
+2025-05-27 22:08:48,221 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-05-31
+2025-05-27 22:08:48,677 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-05-31...
+2025-05-27 22:08:50,330 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:10:05,396 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-05-31. Guardado en /data/out/sevilla_20250531.ndjson
+2025-05-27 22:10:05,396 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-01
+2025-05-27 22:10:05,907 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-01...
+2025-05-27 22:10:07,398 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:11:23,107 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-01. Guardado en /data/out/sevilla_20250601.ndjson
+2025-05-27 22:11:23,107 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-02
+2025-05-27 22:11:23,410 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-02...
+2025-05-27 22:11:25,118 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:12:40,513 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-02. Guardado en /data/out/sevilla_20250602.ndjson
+2025-05-27 22:12:40,513 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-03
+2025-05-27 22:12:40,898 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-03...
+2025-05-27 22:12:42,493 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:14:00,546 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-03. Guardado en /data/out/sevilla_20250603.ndjson
+2025-05-27 22:14:00,546 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-04
+2025-05-27 22:14:00,944 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-04...
+2025-05-27 22:14:02,822 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:15:21,785 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-04. Guardado en /data/out/sevilla_20250604.ndjson
+2025-05-27 22:15:21,785 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-05
+2025-05-27 22:15:22,244 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-05...
+2025-05-27 22:15:24,433 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:16:43,330 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-05. Guardado en /data/out/sevilla_20250605.ndjson
+2025-05-27 22:16:43,330 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-06
+2025-05-27 22:16:43,824 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-06...
+2025-05-27 22:16:45,933 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:18:07,796 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-06. Guardado en /data/out/sevilla_20250606.ndjson
+2025-05-27 22:18:07,796 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-07
+2025-05-27 22:18:08,256 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-07...
+2025-05-27 22:18:09,919 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:19:24,395 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-07. Guardado en /data/out/sevilla_20250607.ndjson
+2025-05-27 22:19:24,395 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-08
+2025-05-27 22:19:24,795 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-08...
+2025-05-27 22:19:26,481 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:20:47,830 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-08. Guardado en /data/out/sevilla_20250608.ndjson
+2025-05-27 22:20:47,830 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-09
+2025-05-27 22:20:48,291 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-09...
+2025-05-27 22:20:49,820 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:22:10,170 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-09. Guardado en /data/out/sevilla_20250609.ndjson
+2025-05-27 22:22:10,170 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-10
+2025-05-27 22:22:10,475 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-10...
+2025-05-27 22:22:12,106 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:23:23,076 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-10. Guardado en /data/out/sevilla_20250610.ndjson
+2025-05-27 22:23:23,076 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-11
+2025-05-27 22:23:23,445 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-11...
+2025-05-27 22:23:25,144 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:24:44,768 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-11. Guardado en /data/out/sevilla_20250611.ndjson
+2025-05-27 22:24:44,768 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-12
+2025-05-27 22:24:45,125 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-12...
+2025-05-27 22:24:46,792 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:26:04,488 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-12. Guardado en /data/out/sevilla_20250612.ndjson
+2025-05-27 22:26:04,488 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-13
+2025-05-27 22:26:04,820 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-13...
+2025-05-27 22:26:06,502 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:27:30,091 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-13. Guardado en /data/out/sevilla_20250613.ndjson
+2025-05-27 22:27:30,091 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-14
+2025-05-27 22:27:30,432 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-14...
+2025-05-27 22:27:32,269 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:28:55,347 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-14. Guardado en /data/out/sevilla_20250614.ndjson
+2025-05-27 22:28:55,347 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-15
+2025-05-27 22:28:55,784 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-15...
+2025-05-27 22:28:57,518 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:30:16,043 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-15. Guardado en /data/out/sevilla_20250615.ndjson
+2025-05-27 22:30:16,043 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-16
+2025-05-27 22:30:16,456 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-16...
+2025-05-27 22:30:18,248 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:31:39,055 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-16. Guardado en /data/out/sevilla_20250616.ndjson
+2025-05-27 22:31:39,055 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-17
+2025-05-27 22:31:39,479 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-17...
+2025-05-27 22:31:41,013 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:32:58,821 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-17. Guardado en /data/out/sevilla_20250617.ndjson
+2025-05-27 22:32:58,821 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-18
+2025-05-27 22:32:59,327 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-18...
+2025-05-27 22:33:00,990 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:34:19,059 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-18. Guardado en /data/out/sevilla_20250618.ndjson
+2025-05-27 22:34:19,059 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-19
+2025-05-27 22:34:19,414 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-19...
+2025-05-27 22:34:21,078 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:35:40,800 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-19. Guardado en /data/out/sevilla_20250619.ndjson
+2025-05-27 22:35:40,800 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-20
+2025-05-27 22:35:41,151 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-20...
+2025-05-27 22:35:42,970 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:36:52,768 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-20. Guardado en /data/out/sevilla_20250620.ndjson
+2025-05-27 22:36:52,768 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-21
+2025-05-27 22:36:53,227 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-21...
+2025-05-27 22:36:54,732 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:38:08,872 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-21. Guardado en /data/out/sevilla_20250621.ndjson
+2025-05-27 22:38:08,872 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-22
+2025-05-27 22:38:09,180 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-22...
+2025-05-27 22:38:10,886 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:39:31,384 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-22. Guardado en /data/out/sevilla_20250622.ndjson
+2025-05-27 22:39:31,384 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-23
+2025-05-27 22:39:31,728 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-23...
+2025-05-27 22:39:33,515 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:40:55,401 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-23. Guardado en /data/out/sevilla_20250623.ndjson
+2025-05-27 22:40:55,401 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-24
+2025-05-27 22:40:55,883 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-24...
+2025-05-27 22:40:57,548 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:42:19,316 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-24. Guardado en /data/out/sevilla_20250624.ndjson
+2025-05-27 22:42:19,316 - SCRAPER - INFO - Iniciando scraping para Sevilla para el 2025-06-25
+2025-05-27 22:42:19,776 - SCRAPER - INFO - Obteniendo resultados de dest_id 774 (Sevilla) el 2025-06-25...
+2025-05-27 22:42:21,612 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Sevilla.
+2025-05-27 22:43:37,425 - SCRAPER - INFO - Fin de scraping para Sevilla para el 2025-06-25. Guardado en /data/out/sevilla_20250625.ndjson
+2025-05-27 22:43:37,425 - SCRAPER - INFO - Iniciando scraping para Huelva para el 2025-05-27
+2025-05-27 22:43:37,831 - SCRAPER - INFO - Obteniendo resultados de dest_id 758 (Huelva) el 2025-05-27...
+2025-05-27 22:43:39,475 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Huelva.
+2025-05-27 22:44:55,401 - SCRAPER - INFO - Fin de scraping para Huelva para el 2025-05-27. Guardado en /data/out/huelva_20
