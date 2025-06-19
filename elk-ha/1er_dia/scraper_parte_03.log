@@ -1,0 +1,117 @@
+8 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-06. Guardado en /data/out/almería_20250606.ndjson
+2025-05-27 19:48:03,738 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-07
+2025-05-27 19:48:04,212 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-07...
+2025-05-27 19:48:06,209 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:49:16,411 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-07. Guardado en /data/out/almería_20250607.ndjson
+2025-05-27 19:49:16,411 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-08
+2025-05-27 19:49:16,892 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-08...
+2025-05-27 19:49:18,641 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:50:34,513 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-08. Guardado en /data/out/almería_20250608.ndjson
+2025-05-27 19:50:34,513 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-09
+2025-05-27 19:50:34,985 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-09...
+2025-05-27 19:50:36,728 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:51:51,416 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-09. Guardado en /data/out/almería_20250609.ndjson
+2025-05-27 19:51:51,416 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-10
+2025-05-27 19:51:51,746 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-10...
+2025-05-27 19:51:53,334 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:53:17,779 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-10. Guardado en /data/out/almería_20250610.ndjson
+2025-05-27 19:53:17,779 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-11
+2025-05-27 19:53:18,095 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-11...
+2025-05-27 19:53:19,710 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:54:44,599 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-11. Guardado en /data/out/almería_20250611.ndjson
+2025-05-27 19:54:44,600 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-12
+2025-05-27 19:54:44,910 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-12...
+2025-05-27 19:54:47,021 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:56:19,662 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-12. Guardado en /data/out/almería_20250612.ndjson
+2025-05-27 19:56:19,663 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-13
+2025-05-27 19:56:20,134 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-13...
+2025-05-27 19:56:21,807 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:57:42,695 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-13. Guardado en /data/out/almería_20250613.ndjson
+2025-05-27 19:57:42,696 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-14
+2025-05-27 19:57:43,023 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-14...
+2025-05-27 19:57:44,713 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 19:59:01,050 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-14. Guardado en /data/out/almería_20250614.ndjson
+2025-05-27 19:59:01,050 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-15
+2025-05-27 19:59:01,444 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-15...
+2025-05-27 19:59:04,047 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:00:28,372 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-15. Guardado en /data/out/almería_20250615.ndjson
+2025-05-27 20:00:28,373 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-16
+2025-05-27 20:00:28,782 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-16...
+2025-05-27 20:00:30,377 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:02:00,568 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-16. Guardado en /data/out/almería_20250616.ndjson
+2025-05-27 20:02:00,569 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-17
+2025-05-27 20:02:01,007 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-17...
+2025-05-27 20:02:02,887 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:03:24,018 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-17. Guardado en /data/out/almería_20250617.ndjson
+2025-05-27 20:03:24,018 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-18
+2025-05-27 20:03:24,514 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-18...
+2025-05-27 20:03:27,455 - SCRAPER - INFO - Encontrados 26 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:04:51,658 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-18. Guardado en /data/out/almería_20250618.ndjson
+2025-05-27 20:04:51,658 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-19
+2025-05-27 20:04:52,113 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-19...
+2025-05-27 20:04:53,752 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:06:13,316 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-19. Guardado en /data/out/almería_20250619.ndjson
+2025-05-27 20:06:13,316 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-20
+2025-05-27 20:06:13,668 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-20...
+2025-05-27 20:06:15,207 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:07:28,996 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-20. Guardado en /data/out/almería_20250620.ndjson
+2025-05-27 20:07:28,996 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-21
+2025-05-27 20:07:29,441 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-21...
+2025-05-27 20:07:31,009 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:08:42,779 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-21. Guardado en /data/out/almería_20250621.ndjson
+2025-05-27 20:08:42,779 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-22
+2025-05-27 20:08:43,172 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-22...
+2025-05-27 20:08:44,895 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:10:00,271 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-22. Guardado en /data/out/almería_20250622.ndjson
+2025-05-27 20:10:00,271 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-23
+2025-05-27 20:10:00,649 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-23...
+2025-05-27 20:10:02,149 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:11:12,262 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-23. Guardado en /data/out/almería_20250623.ndjson
+2025-05-27 20:11:12,262 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-24
+2025-05-27 20:11:12,675 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-24...
+2025-05-27 20:11:14,195 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:12:24,161 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-24. Guardado en /data/out/almería_20250624.ndjson
+2025-05-27 20:12:24,161 - SCRAPER - INFO - Iniciando scraping para Almería para el 2025-06-25
+2025-05-27 20:12:24,614 - SCRAPER - INFO - Obteniendo resultados de dest_id 1363 (Almería) el 2025-06-25...
+2025-05-27 20:12:26,407 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Almería.
+2025-05-27 20:13:37,682 - SCRAPER - INFO - Fin de scraping para Almería para el 2025-06-25. Guardado en /data/out/almería_20250625.ndjson
+2025-05-27 20:13:37,682 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-27
+2025-05-27 20:13:38,105 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-27...
+2025-05-27 20:13:39,642 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:14:43,689 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-27. Guardado en /data/out/granada_20250527.ndjson
+2025-05-27 20:14:43,689 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-28
+2025-05-27 20:14:44,088 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-28...
+2025-05-27 20:14:45,674 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:15:52,709 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-28. Guardado en /data/out/granada_20250528.ndjson
+2025-05-27 20:15:52,709 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-29
+2025-05-27 20:15:53,038 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-29...
+2025-05-27 20:15:54,633 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:17:03,061 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-29. Guardado en /data/out/granada_20250529.ndjson
+2025-05-27 20:17:03,061 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-30
+2025-05-27 20:17:03,555 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-30...
+2025-05-27 20:17:05,281 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:18:11,635 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-30. Guardado en /data/out/granada_20250530.ndjson
+2025-05-27 20:18:11,635 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-05-31
+2025-05-27 20:18:12,048 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-05-31...
+2025-05-27 20:18:13,716 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:19:20,510 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-05-31. Guardado en /data/out/granada_20250531.ndjson
+2025-05-27 20:19:20,510 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-01
+2025-05-27 20:19:20,822 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-01...
+2025-05-27 20:19:22,444 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:20:39,728 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-01. Guardado en /data/out/granada_20250601.ndjson
+2025-05-27 20:20:39,728 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-02
+2025-05-27 20:20:40,048 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-02...
+2025-05-27 20:20:42,085 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:21:57,260 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-02. Guardado en /data/out/granada_20250602.ndjson
+2025-05-27 20:21:57,260 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-03
+2025-05-27 20:21:57,649 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-03...
+2025-05-27 20:21:59,416 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:23:16,074 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-03. Guardado en /data/out/granada_20250603.ndjson
+2025-05-27 20:23:16,074 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-04
+2025-05-27 20:23:16,495 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-04...
+2025-05-27 20:23:18,256 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:24:37,063 - SCRAPER - INFO - Fin de scraping para Granada para el 2025-06-04. Guardado en /data/out/granada_20250604.ndjson
+2025-05-27 20:24:37,063 - SCRAPER - INFO - Iniciando scraping para Granada para el 2025-06-05
+2025-05-27 20:24:37,545 - SCRAPER - INFO - Obteniendo resultados de dest_id 755 (Granada) el 2025-06-05...
+2025-05-27 20:24:39,285 - SCRAPER - INFO - Encontrados 25 hoteles en la página de resultados de búsqueda de Granada.
+2025-05-27 20:25:55,870 - SCRAPER - INFO 

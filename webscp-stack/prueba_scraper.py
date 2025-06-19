@@ -41,6 +41,7 @@ def main():
     while True:
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         log_filename = f"/data/out/prueba_scraper.log.{timestamp}"
+        # log_filename = f"/elk-share/webscp/out/prueba_scraper.log.{timestamp}"
         resultado = extraer_libros()
 
         with open(log_filename, "w", encoding="utf-8") as log_file:

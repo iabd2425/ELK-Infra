@@ -250,6 +250,9 @@ services:
     labels:
       co.elastic.logs/module: logstash
     user: root
+    ports:
+      - "5044:5044"   # Para filebeat -> logstash
+      - "127.0.0.1:9600:9600"   # Para monitoring logstash
     volumes:
       - /elk-single/certs:/usr/share/logstash/certs
       - "./logstash/pipeline:/usr/share/logstash/pipeline"

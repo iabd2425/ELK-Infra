@@ -13,9 +13,8 @@ RUN apt-get update && apt-get install -y \
     dnsutils \
     iputils-ping \
     net-tools \
-    python3-bs4 \
     ca-certificates \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/*
 
 
 # Crear usuario no-root por seguridad
@@ -26,7 +25,7 @@ WORKDIR /app
 
 # Copiar e instalar dependencias Python
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt --retries 5 --timeout 60
 
 # Copiar código fuente
 COPY booking_scraper.py .

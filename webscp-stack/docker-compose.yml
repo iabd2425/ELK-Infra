@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   webscp:
     # build:                                  # Swarm ignora build
@@ -33,6 +31,9 @@ services:
     volumes:
       # Usar el filesystem compartido NFS
       - "/elk-share/webscp/out:/data/out"
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
     environment:
       - TZ=${TZONA:-Europe/Madrid}
       # - NODE_ID={{.Node.ID}}

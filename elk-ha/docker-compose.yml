@@ -1,0 +1,490 @@
+#version: "3.8"
+
+volumes:
+  elasticdataha01:
+    driver: local
+  elasticdataha02:
+    driver: local
+  elasticdataha03:
+    driver: local
+  kibanadataha:
+    driver: local
+  metricbeatdataha01:
+    driver: local
+
+networks:
+  elastic-net-ha:
+    name: elastic-net-ha
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/16
+          gateway: 172.20.0.1
+
+# networks:
+  # elastic-net-ha:
+    # name: elastic-net-ha
+    # external: false
+
+services:
+  setup:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    volumes:
+      - /elk-share/certs:/usr/share/elasticsearch/config/certs
+      - "./elastic/indice_hoteles.sh:/usr/share/elasticsearch/indice_hoteles.sh:ro"
+    environment:
+      # Configuración básica
+      - ELASTIC_HOSTS=https://elastic01:9200
+      - ELASTIC_USER=elastic
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+      - KIBANA_PASSWORD=${KIBANA_PASSWORD}
+
+      # Configuración SSL
+      # ¡¡¡Ojo!!!, esta CA_CERT es distinta al resto
+      - CA_CERT=config/certs/ca/ca.crt
+    user: "0"
+    command: >
+      bash -c '
+        if [ x${ELASTIC_PASSWORD} == x ]; then
+          echo "Set the ELASTIC_PASSWORD environment variable in the .env file";
+          exit 1;
+        elif [ x${KIBANA_PASSWORD} == x ]; then
+          echo "Set the KIBANA_PASSWORD environment variable in the .env file";
+          exit 1;
+        fi;
+        if [ ! -f config/certs/ca.zip ]; then
+          echo "Creating CA";
+          bin/elasticsearch-certutil ca --silent --pem -out config/certs/ca.zip;
+          unzip config/certs/ca.zip -d config/certs;
+        fi;
+        if [ ! -f config/certs/certs.zip ]; then
+          echo "Creating certs";
+          echo -ne \
+          "instances:\n"\
+          "  - name: elastic01\n"\
+          "    dns:\n"\
+          "      - elastic01\n"\
+          "      - localhost\n"\
+          "    ip:\n"\
+          "      - 172.20.0.11\n"\
+          "      - 127.0.0.1\n"\
+          "      - 192.168.220.101\n"\
+          "  - name: elastic02\n"\
+          "    dns:\n"\
+          "      - elastic02\n"\
+          "      - localhost\n"\
+          "    ip:\n"\
+          "      - 172.20.0.12\n"\
+          "      - 127.0.0.1\n"\
+          "      - 192.168.220.101\n"\
+          "  - name: elastic03\n"\
+          "    dns:\n"\
+          "      - elastic03\n"\
+          "      - localhost\n"\
+          "    ip:\n"\
+          "      - 172.20.0.13\n"\
+          "      - 127.0.0.1\n"\
+          "      - 192.168.220.101\n"\
+          "  - name: kibana\n"\
+          "    dns:\n"\
+          "      - kibana\n"\
+          "      - localhost\n"\
+          "    ip:\n"\
+          "      - 172.20.0.20\n"\
+          "      - 127.0.0.1\n"\
+          "      - 192.168.220.101\n"\
+          > config/certs/instances.yml;
+          bin/elasticsearch-certutil cert --silent --pem -out config/certs/certs.zip --in config/certs/instances.yml --ca-cert config/certs/ca/ca.crt --ca-key config/certs/ca/ca.key;
+          unzip config/certs/certs.zip -d config/certs;
+        fi;
+        echo "Setting file permissions"
+        chown -R root:root config/certs;
+        find . -type d -exec chmod 755 \{\} \;;
+        find . -type f -exec chmod 644 \{\} \;;
+        echo "Waiting for Elasticsearch cluster availability";
+        until curl -s --cacert config/certs/ca/ca.crt https://elastic01:9200 | grep -q "missing authentication credentials"; do sleep 30; done;
+        echo "Running index creation script";
+        /usr/share/elasticsearch/indice_hoteles.sh crear;
+        echo "Setting kibana_system password";
+        until curl -s -X POST --cacert config/certs/ca/ca.crt -u "elastic:${ELASTIC_PASSWORD}" -H "Content-Type: application/json" https://elastic01:9200/_security/user/kibana_system/_password -d "{\"password\":\"${KIBANA_PASSWORD}\"}" | grep -q "^{}"; do sleep 10; done;
+        echo "All done!"; 
+      '
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f config/certs/elastic01/elastic01.crt ]"]
+      interval: 1s
+      timeout: 5s
+      retries: 120
+    networks:
+      elastic-net-ha:
+        ipv4_address: 172.20.0.5
+
+
+  elastic01:
+    depends_on:
+      setup:
+        condition: service_healthy
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    labels:
+      co.elastic.logs/module: elasticsearch
+    volumes:
+      - /elk-share/certs:/usr/share/elasticsearch/config/certs
+      - elasticdataha01:/usr/share/elasticsearch/data
+    ports:
+      - ${ES01_PORT}:9200
+    environment:
+      # Configuración básica del nodo
+      - node.name=elastic01
+      - cluster.name=${CLUSTER_NAME}
+      - cluster.initial_master_nodes=elastic01,elastic02,elastic03
+      - discovery.seed_hosts=elastic02,elastic03
+      # - node.roles=master,data,ingest
+      - node.roles=master,data,ingest,remote_cluster_client
+      # Configuración de memoria
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms${ES_HEAP_SIZE} -Xmx${ES_HEAP_SIZE}"
+
+      # Configuración de seguridad SSL
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=true
+      - xpack.security.http.ssl.key=certs/elastic01/elastic01.key
+      - xpack.security.http.ssl.certificate=certs/elastic01/elastic01.crt
+      - xpack.security.http.ssl.certificate_authorities=certs/ca/ca.crt
+      - xpack.security.transport.ssl.enabled=true
+      - xpack.security.transport.ssl.key=certs/elastic01/elastic01.key
+      - xpack.security.transport.ssl.certificate=certs/elastic01/elastic01.crt
+      - xpack.security.transport.ssl.certificate_authorities=certs/ca/ca.crt
+      - xpack.security.transport.ssl.verification_mode=certificate
+
+      # Configuración de licencia
+      - xpack.license.self_generated.type=${LICENSE}
+
+      # Configuraciones de rendimiento
+      - indices.memory.index_buffer_size=30%
+      - thread_pool.write.queue_size=1000
+
+    mem_limit: ${ES_MEM_LIMIT}
+    mem_reservation: ${ES_MEM_RESERVATION}
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -s --cacert config/certs/ca/ca.crt https://localhost:9200 | grep -q 'missing authentication credentials'",
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 120
+    networks:
+      elastic-net-ha:
+        ipv4_address: 172.20.0.11
+
+
+  elastic02:
+    depends_on:
+      setup:
+        condition: service_healthy
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    labels:
+      co.elastic.logs/module: elasticsearch
+    volumes:
+      - /elk-share/certs:/usr/share/elasticsearch/config/certs
+      - elasticdataha02:/usr/share/elasticsearch/data
+    ports:
+      - ${ES02_PORT}:9200
+    environment:
+      - node.name=elastic02
+      - cluster.name=${CLUSTER_NAME}
+      - cluster.initial_master_nodes=elastic01,elastic02,elastic03
+      - discovery.seed_hosts=elastic01,elastic03
+      - node.roles=master,data,ingest
+      
+      # Configuración de memoria
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms${ES_HEAP_SIZE} -Xmx${ES_HEAP_SIZE}"
+      
+      # Configuración de seguridad SSL
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=true
+      - xpack.security.http.ssl.key=certs/elastic02/elastic02.key
+      - xpack.security.http.ssl.certificate=certs/elastic02/elastic02.crt
+      - xpack.security.http.ssl.certificate_authorities=certs/ca/ca.crt
+      - xpack.security.transport.ssl.enabled=true
+      - xpack.security.transport.ssl.key=certs/elastic02/elastic02.key
+      - xpack.security.transport.ssl.certificate=certs/elastic02/elastic02.crt
+      - xpack.security.transport.ssl.certificate_authorities=certs/ca/ca.crt
+      - xpack.security.transport.ssl.verification_mode=certificate
+      
+      # Configuración de licencia
+      - xpack.license.self_generated.type=${LICENSE}
+      
+      # Configuraciones de rendimiento
+      - indices.memory.index_buffer_size=30%
+      - thread_pool.write.queue_size=1000
+
+    mem_limit: ${ES_MEM_LIMIT}
+    mem_reservation: ${ES_MEM_RESERVATION}
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -s --cacert config/certs/ca/ca.crt https://localhost:9200 | grep -q 'missing authentication credentials'",
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 120
+    networks:
+      elastic-net-ha:
+        ipv4_address: 172.20.0.12
+
+
+  elastic03:
+    depends_on:
+      setup:
+        condition: service_healthy
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    labels:
+      co.elastic.logs/module: elasticsearch
+    volumes:
+      - /elk-share/certs:/usr/share/elasticsearch/config/certs
+      - elasticdataha03:/usr/share/elasticsearch/data
+    ports:
+      - ${ES03_PORT}:9200
+    environment:
+      - node.name=elastic03
+      - cluster.name=${CLUSTER_NAME}
+      - cluster.initial_master_nodes=elastic01,elastic02,elastic03
+      - discovery.seed_hosts=elastic01,elastic02
+      - node.roles=master,data,ingest
+      
+      # Configuración de memoria
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms${ES_HEAP_SIZE} -Xmx${ES_HEAP_SIZE}"
+      
+      # Configuración de seguridad SSL
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+      - xpack.security.enabled=true
+      - xpack.security.http.ssl.enabled=true
+      - xpack.security.http.ssl.key=certs/elastic03/elastic03.key
+      - xpack.security.http.ssl.certificate=certs/elastic03/elastic03.crt
+      - xpack.security.http.ssl.certificate_authorities=certs/ca/ca.crt
+      - xpack.security.transport.ssl.enabled=true
+      - xpack.security.transport.ssl.key=certs/elastic03/elastic03.key
+      - xpack.security.transport.ssl.certificate=certs/elastic03/elastic03.crt
+      - xpack.security.transport.ssl.certificate_authorities=certs/ca/ca.crt
+      - xpack.security.transport.ssl.verification_mode=certificate
+      
+      # Configuración de licencia
+      - xpack.license.self_generated.type=${LICENSE}
+      
+      # Configuraciones de rendimiento
+      - indices.memory.index_buffer_size=30%
+      - thread_pool.write.queue_size=1000
+
+    mem_limit: ${ES_MEM_LIMIT}
+    mem_reservation: ${ES_MEM_RESERVATION}
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -s --cacert config/certs/ca/ca.crt https://localhost:9200 | grep -q 'missing authentication credentials'",
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 120
+    networks:
+      elastic-net-ha:
+        ipv4_address: 172.20.0.13
+
+
+  kibana:
+    depends_on:
+      elastic01:
+        condition: service_healthy
+      elastic02:
+        condition: service_healthy
+      elastic03:
+        condition: service_healthy
+    image: docker.elastic.co/kibana/kibana:${STACK_VERSION}
+    labels:
+      co.elastic.logs/module: kibana
+    volumes:
+      - /elk-share/certs:/usr/share/kibana/config/certs
+      - kibanadataha:/usr/share/kibana/data
+    ports:
+      - ${KIBANA_PORT}:5601
+    environment:
+      # Configuración básica
+      - SERVERNAME=kibana
+      - ELASTICSEARCH_HOSTS=["https://elastic01:9200","https://elastic02:9200","https://elastic03:9200"]
+      # - ELASTICSEARCH_HOSTS=https://elastic01:9200
+      - ELASTICSEARCH_USERNAME=kibana_system
+      - ELASTICSEARCH_PASSWORD=${KIBANA_PASSWORD}
+      - ELASTICSEARCH_SSL_CERTIFICATEAUTHORITIES=config/certs/ca/ca.crt
+
+      # Configuración SSL
+      - SERVER_SSL_ENABLED=true
+      - SERVER_SSL_CERTIFICATE=config/certs/kibana/kibana.crt
+      - SERVER_SSL_KEY=config/certs/kibana/kibana.key
+      - SERVER_SSL_CERTIFICATEAUTHORITIES=config/certs/ca/ca.crt
+
+      # Configuración de encriptación
+      - XPACK_SECURITY_ENCRYPTIONKEY=${ENCRYPTION_KEY}
+      - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=${ENCRYPTION_KEY}
+      - XPACK_REPORTING_ENCRYPTIONKEY=${ENCRYPTION_KEY}
+      - XPACK_REPORTING_KIBANASERVER_HOSTNAME=localhost
+
+    mem_limit: ${KB_MEM_LIMIT}
+    mem_reservation: ${KB_MEM_RESERVATION}
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -I -s --cacert config/certs/ca/ca.crt https://localhost:5601 | grep -q 'HTTP/1.1 302 Found'",
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 120
+    networks:
+      elastic-net-ha:
+        ipv4_address: 172.20.0.20
+
+
+  metricbeat01:
+    depends_on:
+      elastic01:
+        condition: service_healthy
+      kibana:
+        condition: service_healthy
+    image: docker.elastic.co/beats/metricbeat:${STACK_VERSION}
+    user: root
+    volumes:
+      - /elk-share/certs:/usr/share/metricbeat/certs
+      - metricbeatdataha01:/usr/share/metricbeat/data
+      - "./config/metricbeat.yml:/usr/share/metricbeat/metricbeat.yml:ro"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "/sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro"
+      - "/proc:/hostfs/proc:ro"
+      - "/:/hostfs:ro"
+    environment:
+      # Configuración básica
+      - ELASTIC_USER=elastic
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+      - ELASTIC_HOSTS=https://elastic01:9200,https://elastic02:9200,https://elastic03:9200
+      # - ELASTIC_HOSTS=https://elastic01:9200
+      - KIBANA_HOSTS=https://kibana:5601
+      - LOGSTASH_HOSTS=http://logstash01:9600
+
+      # Configuración SSL
+      - CA_CERT=certs/ca/ca.crt
+
+    mem_limit: ${MB_MEM_LIMIT}
+    command:
+      --strict.perms=false
+    networks:
+      elastic-net-ha:
+        ipv4_address: 172.20.0.30
+
+
+  logstash01:
+    depends_on:
+      elastic01:
+        condition: service_healthy
+      kibana:
+        condition: service_healthy
+    image: docker.elastic.co/logstash/logstash:${STACK_VERSION}
+    labels:
+      co.elastic.logs/module: logstash
+    user: root
+    volumes:
+      - /elk-share/certs:/usr/share/logstash/certs
+      - "./logstash/pipeline:/usr/share/logstash/pipeline"
+      - ./config/pipelines.yml:/usr/share/logstash/config/pipelines.yml:ro
+    ports:
+      # Exponemos el puerto 5044 para que pueda ser consumido desde el host
+      - "5044:5044"
+      # Puerto adicional para API de monitoreo (opcional)
+      - "9600:9600"
+    environment:
+      # Configuración básica
+      - ELASTIC_USER=elastic
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
+      # - ELASTIC_HOSTS=https://elastic01:9200,https://elastic02:9200,https://elastic03:9200
+      - ELASTIC_HOSTS=https://elastic01:9200
+
+      # Configuración de Java
+      - "LS_JAVA_OPTS=-Xmx${LS_HEAP_SIZE} -Xms${LS_HEAP_SIZE}"
+
+      # Configuración de pipeline
+      - pipeline.workers=${LS_PIPELINE_WORKERS}
+      - pipeline.batch.size=${LS_PIPELINE_BATCH_SIZE}
+      - pipeline.batch.delay=${LS_PIPELINE_BATCH_DELAY}
+
+      # Configuración de monitoreo
+      - xpack.monitoring.enabled=false
+
+      # Configuración SSL
+      - CA_CERT=certs/ca/ca.crt
+
+    mem_limit: ${LS_MEM_LIMIT}
+    mem_reservation: ${LS_MEM_RESERVATION}
+    # Configuración de reinicio automático
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9600 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    networks:
+      elastic-net-ha:
+        ipv4_address: 172.20.0.40
+
+  filebeat01:
+    depends_on:
+      elastic01:
+        condition: service_healthy
+    image: docker.elastic.co/beats/filebeat:${STACK_VERSION}
+    user: root
+    volumes:
+      - /elk-share/certs:/usr/share/filebeat/certs
+      - "/var/log:/host/var/log:ro"
+      - "/var/lib/docker/containers:/var/lib/docker/containers:ro"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "/elk-share/webscp/out:/usr/share/filebeat/ingest_data"
+      - "./config/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro"
+    environment:
+      # Configuración básica
+      - LOGSTASH_HOSTS=logstash01:5044
+
+      # Configuración SSL
+      # - CA_CERT=certs/ca/ca.crt
+
+    mem_limit: ${FB_MEM_LIMIT}
+    command:
+      --strict.perms=false
+    networks:
+      elastic-net-ha:
+        ipv4_address: 172.20.0.50
